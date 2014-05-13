@@ -1,0 +1,182 @@
+@import "vendors/grid.styl"
+@import "../bower_components/fullPage.js/jquery.fullPage.css"
+////// VARIABLES ///////
+columns = 12
+column-width = 60
+gutter-width = 20
+total-width = 100%
+
+
+$KMS-Rosa = #ff6168
+$KMS-Verde = #a7d06a
+$KMS-Azul = #00c5db
+$KMS-Aqua = #00ccc3
+$KMS-AzulOscuro = #147caf
+$KMS-Gris = #b3b3b3
+$KMS-Blanco = #f2f2f2
+
+
+///// CLASES //////
+.container
+	max-width 980px
+	margin 0 auto
+	clear both
+	display block
+	&.homeSlides
+		margin 0 4em
+		overflow hidden
+.section
+	padding-top 5em
+	box-sizing border-box
+.btn
+	background-color lighten($KMS-Gris, 60%)
+	border-radius .25em
+	color $KMS-Azul
+	padding .25em 2em
+	text-decoration none
+	&:hover
+		background-color $KMS-Verde
+		color white
+.home
+	background-color $KMS-AzulOscuro
+	background-image url("../img/index.jpg")
+	background-size cover
+	background-position center center
+	color white
+	box-sizing border-box
+	#iconitos
+		margin-top 5em
+		padding 0 3em
+		box-sizing border-box
+		text-align center
+		img
+			max-width 100%
+	#imagenCelular
+		column(7)
+		position relative
+		height 90vh
+		@media(max-width:730px)
+			height 0
+			display none
+		figure
+			display block
+			position absolute
+			bottom 0
+			right 0
+			height auto
+			padding 0
+	#bienvenida
+		column(5)
+		padding-top 5em
+		text-align center
+		&.bienvenida2
+			@media (max-width:730px)
+				display none
+		@media (max-width:730px)
+			column(12)
+			padding-top 2em
+		h2
+			font-size 5em
+			margin 0
+		h3
+			margin 0
+		form
+			input[type="text"]
+				column(12)
+				background-color transparent
+				border 1px solid white
+				color white
+				padding .5em
+				box-sizing border-box
+			input[type="submit"]
+				column(12)
+				margin-top .5em
+				background-color $KMS-Aqua
+				border 0px solid
+				padding .5em
+.comofunciona
+	background-image url("../img/dispositivos.jpg")
+	background-size contain
+	background-repeat no-repeat
+	background-position right bottom
+	.informacion
+		column(6)
+		text-align right
+		background-color rgba(white,.9)
+		padding 1em
+		overflow hidden
+		display block
+		clear both
+		box-sizing border-box
+		@media(max-width:730px)
+			text-align center
+			width 100%
+		h2
+			color $KMS-Azul
+			margin .25em 0
+.pulsera
+	background-color white
+	background-image url("../img/pulsera.jpg")
+	background-position left center
+	background-size  auto 80%
+	background-repeat no-repeat
+	@media(max-width:730px)
+		background-position center bottom
+		background-size 200px auto
+	.informacion
+		max-width 480px
+		float right
+		text-align right
+		background-color rgba(white,.5)
+		padding 1em
+		overflow hidden
+		display block
+		clear both
+		box-sizing border-box
+		@media(max-width:730px)
+			text-align center
+			width 100%
+		h2
+			color $KMS-Verde
+			margin .25em 0
+.app
+	background-image url("../img/app.jpg")
+	background-position right bottom
+	background-size  contain
+	background-repeat no-repeat
+	.informacion
+		column(6)
+		color $KMS-Azul
+		margin 0
+		@media(max-width:730px)
+			text-align center
+			width 100%
+		a
+			column(6)
+///// ETIQUETAS ////
+body
+	background-color $KMS-Blanco
+img
+	max-width 100%
+	height auto
+header
+	background-color white
+	display block
+	top 0
+	left 0
+	width 100%
+	height 4em
+	z-index 30
+	box-shadow 0 .25em .1em rgba(0,0,0,.5)
+	position fixed
+	nav
+		ul
+			padding 0
+			li
+				display inline-block
+				&.KMS
+					color blue
+				&.IniciarSesion
+					color blue
+				&.Software
+					color blue
