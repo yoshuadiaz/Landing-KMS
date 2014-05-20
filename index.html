@@ -12,62 +12,41 @@
 <body>
 	<header>
 		<nav class="container">
-			<ul id="myMenu">
-				<li data-menuanchor="home" class="active KMS"><a href="#home">LOGO</a></li>
-				<li data-menuanchor="comofunciona"><a href="#comofunciona">¿Cómo Funciona?</a></li>
-				<li data-menuanchor="pulsera"><a href="#pulsera">Pulsera</a></li>
-				<li data-menuanchor="app"><a href="#app">APP</a></li>
-				<li data-menuanchor="contacto"><a href="#contacto">Contacto</a></li>
+			<ul id="myMenu" [data-scroll-header]>
+				<li class="active KMS"><a href="#home" data-scroll>LOGO</a></li>
+				<li><a href="#comofunciona" data-scroll>¿Cómo Funciona?</a></li>
+				<li><a href="#pulsera" data-scroll>Pulsera</a></li>
+				<li><a href="#app" data-scroll>APP</a></li>
+				<li><a href="#contacto" data-scroll>Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<div id="fullpage">
 
-		<div class="section active home">
+		<div class="section active home" id="home">
 			<div class="container">
 				<div class="container homeSlides">
-					<div class="slide" data-anchor="slide1">
-						<section id="bienvenida">
-							<h2>KMS</h2>
-							<h3>¡MUEVE AL MUNDO!</h3>
-							<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
-							<p> Tambien puedes suscribirte aquí y nosotros te avisemos cuando empezar a mover el mundo con nosotros.</p>
+					<section id="bienvenida">
+						<h2>KMS</h2>
+						<h3>¡MUEVE AL MUNDO!</h3>
+						<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
+						<p> Tambien puedes suscribirte aquí y nosotros te avisemos cuando empezar a mover el mundo con nosotros.</p>
 
-							<form action="#">
-								<input type="text">
-								<input type="submit" value="Suscribirme">
-							</form>
-						</section>
-						<section id="imagenCelular">
-							<figure>
-								<img src="img/HandwithiPhone5.png" alt="">
-							</figure>
-						</section>
-					</div>
-
-					<div class="slide" data-anchor="slide2">
-						<section id="bienvenida" class="bienvenida2">
-							<h2>KMS</h2>
-							<h3>¡MUEVE AL MUNDO!</h3>
-							<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
-							<p> Tambien puedes suscribirte aquí y nosotros te avisemos cuando empezar a mover el mundo con nosotros.</p>
-
-							<form action="#">
-								<input type="text">
-								<input type="submit" value="Suscribirme">
-							</form>
-						</section>
-							
-						<section id="iconitos">
-							<img src="img/iconos.png" alt="">
-						</section>
-					</div>
+						<form action="#">
+							<input type="text">
+							<input type="submit" value="Suscribirme">
+						</form>
+					</section>
+					<section id="imagenCelular">
+						<figure>
+						</figure>
+					</section>
 				</div>
 			</div>
 		</div>
 
-		<div class="section comofunciona">
+		<div class="section comofunciona" id="comofunciona">
 			<div class="container">
 				<div class="informacion">
 					<h2>¿Cómo funciona?</h2>
@@ -76,7 +55,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section pulsera">
+		<div class="section pulsera" id="pulsera">
 			<div class="container">
 				<div class="informacion">
 					<h2>Pulsera</h2>
@@ -84,7 +63,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section app">
+		<div class="section app" id="app">
 			<div class="container">
 				<div class="informacion">
 					<h2>APP</h2>
@@ -94,10 +73,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="section contacto">
+		<div class="section contacto" id="contacto">
 			<div class="container">Contacto</div>
 		</div>
 	</div>
-
+<script>
+    smoothScroll.init();
+</script>
 </body>
 </html>

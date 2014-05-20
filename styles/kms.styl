@@ -1,5 +1,4 @@
 @import "vendors/grid.styl"
-@import "../bower_components/fullPage.js/jquery.fullPage.css"
 ////// VARIABLES ///////
 columns = 12
 column-width = 60
@@ -44,30 +43,28 @@ $KMS-Blanco = #f2f2f2
 	background-position center center
 	color white
 	box-sizing border-box
-	#iconitos
-		margin-top 5em
-		padding 0 3em
-		box-sizing border-box
-		text-align center
-		img
-			max-width 100%
+	.homeSlides
+		max-height 480px
+		@media(max-width:730px)
+			max-height inherit
+			padding-bottom 2em
+			height 100vh
 	#imagenCelular
 		column(7)
-		position relative
-		height 90vh
+		figure
+			margin 0
+			padding 0
+			background-image url("../img/HandwithiPhone5.png")
+			background-size 350px auto
+			background-repeat no-repeat
+			background-position bottom center
+			height 430px
 		@media(max-width:730px)
 			height 0
 			display none
-		figure
-			display block
-			position absolute
-			bottom 0
-			right 0
-			height auto
-			padding 0
 	#bienvenida
 		column(5)
-		padding-top 5em
+		padding-top 2em
 		text-align center
 		&.bienvenida2
 			@media (max-width:730px)
@@ -99,6 +96,14 @@ $KMS-Blanco = #f2f2f2
 	background-size contain
 	background-repeat no-repeat
 	background-position right bottom
+	overflow hidden
+	min-height 450px
+	padding 3em 0
+	@media(max-width:730px)
+		min-height auto
+		background-position right top
+		background-size auto 300px
+		height 100vh
 	.informacion
 		column(6)
 		text-align right
@@ -111,6 +116,7 @@ $KMS-Blanco = #f2f2f2
 		@media(max-width:730px)
 			text-align center
 			width 100%
+			margin-top 280px
 		h2
 			color $KMS-Azul
 			margin .25em 0
@@ -118,11 +124,14 @@ $KMS-Blanco = #f2f2f2
 	background-color white
 	background-image url("../img/pulsera.jpg")
 	background-position left center
-	background-size  auto 80%
+	background-size  auto 130%
 	background-repeat no-repeat
+	overflow hidden
+	min-height 450px
+	padding 3em 0
 	@media(max-width:730px)
 		background-position center bottom
-		background-size 200px auto
+		background-size 150px auto
 	.informacion
 		max-width 480px
 		float right
@@ -134,6 +143,7 @@ $KMS-Blanco = #f2f2f2
 		clear both
 		box-sizing border-box
 		@media(max-width:730px)
+			max-width 100%
 			text-align center
 			width 100%
 		h2
@@ -141,16 +151,26 @@ $KMS-Blanco = #f2f2f2
 			margin .25em 0
 .app
 	background-image url("../img/app.jpg")
-	background-position right bottom
-	background-size  contain
+	background-position right center
+	background-size  auto 140%
 	background-repeat no-repeat
+	overflow hidden
+	min-height 450px
+	padding 3em 0
+	@media(max-width:730px)
+		background-position right bottom
+		background-size  500px auto
 	.informacion
 		column(6)
 		color $KMS-Azul
 		margin 0
+		background-color rgba(white, .8)
+		padding 1em
+		box-sizing border-box
 		@media(max-width:730px)
 			text-align center
 			width 100%
+			margin-bottom 300px
 		a
 			column(6)
 ///// ETIQUETAS ////
