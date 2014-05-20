@@ -948,7 +948,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 148732,
+		"initialSize": 160210,
 		"inputAbbreviatedPath": "\/img\/app.jpg",
 		"outputAbbreviatedPath": "\/img\/app.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -999,6 +999,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 307636,
+		"inputAbbreviatedPath": "\/img\/home.jpg",
+		"outputAbbreviatedPath": "\/img\/home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/iconos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1006,17 +1017,6 @@
 		"initialSize": 24365,
 		"inputAbbreviatedPath": "\/img\/iconos.png",
 		"outputAbbreviatedPath": "\/img\/iconos.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/index.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 533212,
-		"inputAbbreviatedPath": "\/img\/index.jpg",
-		"outputAbbreviatedPath": "\/img\/index.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1076,7 +1076,7 @@
 		},
 	"\/js\/smooth-scroll.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/smooth-scroll.js",
 		"outputAbbreviatedPath": "\/js\/min\/smooth-scroll-ck.js",
@@ -1112,7 +1112,7 @@
 		"fileType": 8,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"importCSS": 1,
+		"importCSS": 0,
 		"inputAbbreviatedPath": "\/styles\/kms.styl",
 		"outputAbbreviatedPath": "\/css\/kms.css",
 		"outputPathIsOutsideProject": 0,
@@ -1140,16 +1140,8 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "CTIN",
+"lastSavedByUser": "Yoshua Díaz",
 "manualImportLinks": {
-	"\/js\/kms-builder.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/smooth-scroll.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
