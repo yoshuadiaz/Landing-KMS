@@ -36,7 +36,7 @@ $KMS-Blanco = #f2f2f2
 	display block
 	clear both
 	max-width 100px
-	margin 0 auto
+	margin 1em auto!important
 	text-align center
 	&:hover
 		background-color $KMS-Verde
@@ -45,7 +45,6 @@ $KMS-Blanco = #f2f2f2
 	background $KMS-AzulOscuro url("../img/home.jpg")
 	background-size cover
 	background-position center center
-	background-attachment fixed
 	color white
 	box-sizing border-box
 	@media (max-width:730px)
@@ -142,7 +141,7 @@ $KMS-Blanco = #f2f2f2
 		max-width 480px
 		float right
 		text-align left
-		background-color rgba(white,.5)
+		background-color rgba(white,.95)
 		padding 1em
 		overflow hidden
 		display block
@@ -160,8 +159,11 @@ $KMS-Blanco = #f2f2f2
 			column(4)
 			text-align center
 			margin-bottom 1.5em
+			padding 1em
+			box-sizing border-box
 			figcaption
 				color $KMS-Verde
+				text-align center
 .app
 	background-image url("../img/app.jpg")
 	background-position right center
@@ -173,6 +175,10 @@ $KMS-Blanco = #f2f2f2
 	@media(max-width:730px)
 		background-position right bottom
 		background-size  500px auto
+	.btn
+		display block!important
+		float none!important
+		margin-top 3em!important
 	.informacion
 		column(6)
 		color $KMS-Azul
@@ -281,12 +287,15 @@ header
 	z-index 30
 	box-shadow 0 .25em .1em rgba(0,0,0,.5)
 	position fixed
+	z-index 20
 	#myMenu
 		padding 0
+		margin 0
 		li
 			display inline-block
 			transition all .25s ease
 			padding .25em
+			vertical-align middle
 			&:hover
 				transform scale(1.1)
 			&:after
@@ -306,11 +315,13 @@ header
 				color $KMS-Verde
 				float right
 				cursor pointer
+				margin-top 1.5em
 				&:after
 					content "/"
 			&.Software
 				color $KMS-Rosa
 				float right
 				cursor pointer
+				margin-top 1.5em
 				&:after
 					content ""
