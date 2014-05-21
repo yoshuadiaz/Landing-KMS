@@ -1,5 +1,4 @@
 @import "vendors/grid.styl"
-@import "../bower_components/fullPage.js/jquery.fullPage.css"
 ////// VARIABLES ///////
 columns = 12
 column-width = 60
@@ -34,40 +33,44 @@ $KMS-Blanco = #f2f2f2
 	color $KMS-Azul
 	padding .25em 2em
 	text-decoration none
+	display block
+	clear both
+	max-width 100px
+	margin 1em auto!important
+	text-align center
 	&:hover
 		background-color $KMS-Verde
 		color white
 .home
-	background-color $KMS-AzulOscuro
-	background-image url("../img/index.jpg")
+	background $KMS-AzulOscuro url("../img/home.jpg")
 	background-size cover
 	background-position center center
 	color white
 	box-sizing border-box
-	#iconitos
-		margin-top 5em
-		padding 0 3em
-		box-sizing border-box
-		text-align center
-		img
-			max-width 100%
+	@media (max-width:730px)
+		background-attachment inherit
+	.homeSlides
+		max-height 480px
+		@media(max-width:730px)
+			max-height inherit
+			padding-bottom 2em
+			height 100vh
 	#imagenCelular
 		column(7)
-		position relative
-		height 90vh
+		figure
+			margin 0
+			padding 0
+			background-image url("../img/HandwithiPhone5.png")
+			background-size 350px auto
+			background-repeat no-repeat
+			background-position bottom center
+			height 430px
 		@media(max-width:730px)
 			height 0
 			display none
-		figure
-			display block
-			position absolute
-			bottom 0
-			right 0
-			height auto
-			padding 0
 	#bienvenida
 		column(5)
-		padding-top 5em
+		padding-top 2em
 		text-align center
 		&.bienvenida2
 			@media (max-width:730px)
@@ -99,6 +102,13 @@ $KMS-Blanco = #f2f2f2
 	background-size contain
 	background-repeat no-repeat
 	background-position right bottom
+	overflow hidden
+	min-height 450px
+	padding 5em 0
+	@media(max-width:730px)
+		min-height auto
+		background-position right top
+		background-size auto 300px
 	.informacion
 		column(6)
 		text-align right
@@ -111,6 +121,7 @@ $KMS-Blanco = #f2f2f2
 		@media(max-width:730px)
 			text-align center
 			width 100%
+			margin-top 280px
 		h2
 			color $KMS-Azul
 			margin .25em 0
@@ -118,41 +129,149 @@ $KMS-Blanco = #f2f2f2
 	background-color white
 	background-image url("../img/pulsera.jpg")
 	background-position left center
-	background-size  auto 80%
+	background-size  auto 130%
 	background-repeat no-repeat
+	overflow hidden
+	min-height 450px
+	padding 5em 0
 	@media(max-width:730px)
 		background-position center bottom
-		background-size 200px auto
+		background-size 150px auto
 	.informacion
 		max-width 480px
 		float right
-		text-align right
-		background-color rgba(white,.5)
+		text-align left
+		background-color rgba(white,.95)
 		padding 1em
 		overflow hidden
 		display block
 		clear both
 		box-sizing border-box
 		@media(max-width:730px)
+			max-width 100%
 			text-align center
 			width 100%
+			margin-bottom 8em
 		h2
 			color $KMS-Verde
 			margin .25em 0
+		figure
+			column(4)
+			text-align center
+			margin-bottom 1.5em
+			padding 1em
+			box-sizing border-box
+			figcaption
+				color $KMS-Verde
+				text-align center
 .app
 	background-image url("../img/app.jpg")
-	background-position right bottom
-	background-size  contain
+	background-position right center
+	background-size  auto 140%
 	background-repeat no-repeat
+	overflow hidden
+	min-height 450px
+	padding 5em 0
+	@media(max-width:730px)
+		background-position right bottom
+		background-size  500px auto
+	.btn
+		display block!important
+		float none!important
+		margin-top 3em!important
 	.informacion
 		column(6)
 		color $KMS-Azul
 		margin 0
+		background-color rgba(white, .8)
+		padding 1em
+		box-sizing border-box
 		@media(max-width:730px)
 			text-align center
 			width 100%
+			margin-bottom 300px
 		a
 			column(6)
+.contacto
+	padding-top 5em
+	overflow hidden
+	h2
+		text-align center
+		color $KMS-Verde
+		font-size 1.5em
+		margin .5em
+	p
+		color $KMS-Gris
+		max-width 350px
+		display block
+		margin 1em auto 3em
+		text-align center
+		font-size .85em
+	.formulario
+		column(6.25)
+		border-right 1px solid $KMS-Gris
+		@media (max-width:650px)
+			column(12)
+			border-right 0 solid $KMS-Gris
+			border-bottom 1px solid $KMS-Gris
+		form
+			div
+				margin .5em 0
+				overflow hidden
+			label
+				column(3)
+				text-align right
+				color $KMS-Azul
+			input, textarea
+				column(8)
+			input[type="submit"]
+				column(5)
+				push(5)
+				border 1px solid $KMS-Azul
+				background transparent
+				color $KMS-Azul
+				transition all .25s ease
+				@media (max-width:650px)
+					column(6)
+					push(4)
+					margin-bottom 2em
+				&:hover
+					background-color rgba($KMS-Azul, 30%)
+					color white
+	.informacion
+		column(5)
+		text-align center
+		@media (max-width:650px)
+			column(12)
+			margin-bottom 2em
+		p
+			color $KMS-Azul
+		a
+			text-decoration none
+		.twitter
+			color $KMS-Azul
+		.facebook
+			color $KMS-AzulOscuro
+footer
+	display block
+	clear both
+	background white
+	margin-top 2em
+	padding-bottom 3em
+	h3
+		color $KMS-Verde
+		font-size 1.1em
+		margin .25em 0
+		margin-left -1em
+	ul
+		display inline-block
+		vertical-align top
+		li
+			list-style-type none
+			margin .25em
+	a
+		color $KMS-Gris
+		text-decoration none
 ///// ETIQUETAS ////
 body
 	background-color $KMS-Blanco
@@ -165,18 +284,44 @@ header
 	top 0
 	left 0
 	width 100%
-	height 4em
 	z-index 30
 	box-shadow 0 .25em .1em rgba(0,0,0,.5)
 	position fixed
-	nav
-		ul
-			padding 0
-			li
-				display inline-block
-				&.KMS
-					color blue
-				&.IniciarSesion
-					color blue
-				&.Software
-					color blue
+	z-index 20
+	#myMenu
+		padding 0
+		margin 0
+		li
+			display inline-block
+			transition all .25s ease
+			padding .25em
+			vertical-align middle
+			&:hover
+				transform scale(1.1)
+			&:after
+				content "/"
+				color lighten($KMS-Gris,50%)
+				padding 0 .5em
+			&:first-child:after
+				content ""
+			&:nth-child(5):after
+				content ""
+			a
+				color $KMS-Azul
+				text-decoration none
+			&.KMS
+				color blue
+			&.IniciarSesion
+				color $KMS-Verde
+				float right
+				cursor pointer
+				margin-top 1.5em
+				&:after
+					content "/"
+			&.Software
+				color $KMS-Rosa
+				float right
+				cursor pointer
+				margin-top 1.5em
+				&:after
+					content ""

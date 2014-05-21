@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>KMS</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/kms.css">
@@ -12,92 +13,138 @@
 <body>
 	<header>
 		<nav class="container">
-			<ul id="myMenu">
-				<li data-menuanchor="home" class="active KMS"><a href="#home">LOGO</a></li>
-				<li data-menuanchor="comofunciona"><a href="#comofunciona">¿Cómo Funciona?</a></li>
-				<li data-menuanchor="pulsera"><a href="#pulsera">Pulsera</a></li>
-				<li data-menuanchor="app"><a href="#app">APP</a></li>
-				<li data-menuanchor="contacto"><a href="#contacto">Contacto</a></li>
+			<ul id="myMenu" [data-scroll-header]>
+				<li class="active KMS"><a href="#home" data-scroll><img src="img/kms.jpg" alt="" width="60"></a></li>
+				<li><a href="#comofunciona" data-scroll>¿Cómo Funciona?</a></li>
+				<li><a href="#pulsera" data-scroll>Pulsera</a></li>
+				<li><a href="#app" data-scroll>APP</a></li>
+				<li><a href="#contacto" data-scroll>Contacto</a></li>
+				<li class="Software">Software</li>
+				<li class="IniciarSesion">Iniciar Sesión</li>
 			</ul>
 		</nav>
 	</header>
 
 	<div id="fullpage">
 
-		<div class="section active home">
+		<div class="section active home" id="home">
 			<div class="container">
 				<div class="container homeSlides">
-					<div class="slide" data-anchor="slide1">
-						<section id="bienvenida">
-							<h2>KMS</h2>
-							<h3>¡MUEVE AL MUNDO!</h3>
-							<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
-							<p> Tambien puedes suscribirte aquí y nosotros te avisemos cuando empezar a mover el mundo con nosotros.</p>
+					<section id="bienvenida">
+						<h2>KMS</h2>
+						<h3>¡MUEVE AL MUNDO!</h3>
+						<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
+						<p> Tambien puedes suscribirte aquí y nosotros te avisemos cuando empezar a mover el mundo con nosotros.</p>
 
-							<form action="#">
-								<input type="text">
-								<input type="submit" value="Suscribirme">
-							</form>
-						</section>
-						<section id="imagenCelular">
-							<figure>
-								<img src="img/HandwithiPhone5.png" alt="">
-							</figure>
-						</section>
-					</div>
-
-					<div class="slide" data-anchor="slide2">
-						<section id="bienvenida" class="bienvenida2">
-							<h2>KMS</h2>
-							<h3>¡MUEVE AL MUNDO!</h3>
-							<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
-							<p> Tambien puedes suscribirte aquí y nosotros te avisemos cuando empezar a mover el mundo con nosotros.</p>
-
-							<form action="#">
-								<input type="text">
-								<input type="submit" value="Suscribirme">
-							</form>
-						</section>
-							
-						<section id="iconitos">
-							<img src="img/iconos.png" alt="">
-						</section>
-					</div>
+						<form action="#">
+							<input type="text">
+							<input type="submit" value="Suscribirme">
+						</form>
+					</section>
+					<section id="imagenCelular">
+						<figure>
+						</figure>
+					</section>
 				</div>
 			</div>
 		</div>
 
-		<div class="section comofunciona">
+		<div class="section comofunciona" id="comofunciona">
 			<div class="container">
 				<div class="informacion">
 					<h2>¿Cómo funciona?</h2>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-					<a href="#" class="btn">Ver más</a>
+					<a href="comofunciona.html" class="btn">Ver más</a>
 				</div>
 			</div>
 		</div>
-		<div class="section pulsera">
+		<div class="section pulsera" id="pulsera">
 			<div class="container">
 				<div class="informacion">
 					<h2>Pulsera</h2>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+					<figure>
+						<img src="img/kilometros.jpg">
+						<figcaption>KILOMETROS</figcaption>
+					</figure>
+					<figure>
+						<img src="img/ahorro.jpg">
+						<figcaption>AHORRO</figcaption>
+					</figure>
+					<figure>
+						<img src="img/sueno.jpg">
+						<figcaption>SUEÑO</figcaption>
+					</figure>
+					<a href="pulsera.html" class="btn">Ver más</a>
 				</div>
 			</div>
 		</div>
-		<div class="section app">
+		<div class="section app" id="app">
 			<div class="container">
 				<div class="informacion">
 					<h2>APP</h2>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
 					<a href=""><img src="img/googleplay.jpg" alt=""></a>
 					<a href=""><img src="img/appstore.jpg" alt=""></a>
+					<br><br>
+					<a href="app.html" class="btn">Ver más</a>
 				</div>
 			</div>
 		</div>
-		<div class="section contacto">
-			<div class="container">Contacto</div>
+		<div class="section contacto" id="contacto">
+			<div class="container">
+				<h2>CONTACTO</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, repellendus, dolorem, illo adipisci vel soluta fugit tempora beatae aut mollitia illum sed aspernatur architecto vero temporibus accusantium sint. Aliquam, ipsa.</p>
+				<div class="formulario">
+					<form action="">
+						<div>
+							<label>Nombre</label>
+							<input type="text">
+						</div>
+						<div>
+							<label>Email</label>
+							<input type="email">
+						</div>
+						<div>
+							<label>Mensaje</label>
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</div>
+						<input type="submit">
+					</form>
+				</div>
+				<div class="informacion">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<a href="#" class="twitter">@kmsmex</a>
+					<a href="#" class="facebook">KMS México</a>
+				</div>
+			</div>
 		</div>
 	</div>
-
+	<footer>
+		<div class="container">
+			<ul>
+				<h3>ACERCA DE</h3>
+				<li><a href="#">Equipo</a></li>
+				<li><a href="#">Terminos de uso</a></li>
+				<li><a href="#">Políticas de privacidad</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+			<ul>
+				<h3>AYUDA</h3>
+				<li><a href="#">Preguntas Frecuentes</a></li>
+				<li><a href="#">Ideas</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Noticias</a></li>
+			</ul>
+			<ul>
+				<h3>ALIANZAS</h3>
+				<li><a href="#">Patrocinadores</a></li>
+				<li><a href="#">Alianzas estratégicas</a></li>
+			</ul>
+		</div>
+	</footer>
+<script>
+    smoothScroll.init();
+</script>
 </body>
 </html>
