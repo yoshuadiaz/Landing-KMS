@@ -35,7 +35,7 @@ body:after {
   display: block;
   clear: both;
   max-width: 100px;
-  margin: 0 auto;
+  margin: 1em auto !important;
   text-align: center;
 }
 .btn:hover {
@@ -47,7 +47,6 @@ body:after {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
   color: #fff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -220,7 +219,7 @@ body:after {
   max-width: 480px;
   float: right;
   text-align: left;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.95);
   padding: 1em;
   overflow: hidden;
   display: block;
@@ -250,9 +249,14 @@ body:after {
   *margin: 0 1.041124131944478%;
   text-align: center;
   margin-bottom: 1.5em;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .pulsera .informacion figure figcaption {
   color: #a7d06a;
+  text-align: center;
 }
 .app {
   background-image: url("../img/app.jpg");
@@ -270,6 +274,11 @@ body:after {
     -webkit-background-size: 500px auto;
     background-size: 500px auto;
   }
+}
+.app .btn {
+  display: block !important;
+  float: none !important;
+  margin-top: 3em !important;
 }
 .app .informacion {
   display: inline;
@@ -467,15 +476,18 @@ header {
   -webkit-box-shadow: 0 0.25em 0.1em rgba(0,0,0,0.5);
   box-shadow: 0 0.25em 0.1em rgba(0,0,0,0.5);
   position: fixed;
+  z-index: 20;
 }
 header #myMenu {
   padding: 0;
+  margin: 0;
 }
 header #myMenu li {
   display: inline-block;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   padding: 0.25em;
+  vertical-align: middle;
 }
 header #myMenu li:hover {
   -webkit-transform: scale(1.1);
@@ -504,6 +516,7 @@ header #myMenu li.IniciarSesion {
   color: #a7d06a;
   float: right;
   cursor: pointer;
+  margin-top: 1.5em;
 }
 header #myMenu li.IniciarSesion:after {
   content: "/";
@@ -512,6 +525,7 @@ header #myMenu li.Software {
   color: #ff6168;
   float: right;
   cursor: pointer;
+  margin-top: 1.5em;
 }
 header #myMenu li.Software:after {
   content: "";
