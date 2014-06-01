@@ -462,6 +462,9 @@ footer a {
 body {
   background-color: #f2f2f2;
 }
+body.blanco {
+  background-color: #fff;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -529,4 +532,127 @@ header #myMenu li.Software {
 }
 header #myMenu li.Software:after {
   content: "";
+}
+#comoFuncionaDetalle {
+  text-align: center;
+}
+#comoFuncionaDetalle figure {
+  padding: 0;
+  margin: 0;
+}
+#comoFuncionaDetalle figure.metas {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+#comoFuncionaDetalle img.premios {
+  max-width: 160px;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
+#comoFuncionaDetalle img.diagramaKms {
+  display: inline;
+  float: left;
+  width: 89.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 89.53667534722221%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 9.375%;
+}
+#comoFuncionaDetalle img.tips {
+  display: inline;
+  float: left;
+  width: 52.0833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 52.05620659722221%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 5.2083333333333%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+#comoFuncionaDetalle h2 {
+  color: #a7d06a;
+  font-weight: normal;
+}
+#comoFuncionaDetalle h3 {
+  color: #00c5db;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  font-weight: normal;
+}
+#comoFuncionaDetalle p {
+  font-size: 1em;
+  font-weight: lighter;
+}
+#comoFuncionaDetalle p.premios {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 26.041666666666703%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 100%;
+  display: block;
+  clear: both;
+}
+#comoFuncionaDetalle p.tips {
+  display: inline;
+  float: left;
+  width: 39.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 39.56271701388887%;
+  *margin: 0 1.041124131944478%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+#comoFuncionaDetalle p.metas {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+#comoFuncionaDetalle hr {
+  display: block;
+  clear: both;
+  width: 100%;
+  margin: 2em auto;
+}
+#comoFuncionaDetalle .pulseraDetalleItem {
+  display: inline;
+  float: left;
+  width: 27.083333333333297%;
+  margin: 0 1.0416666666667%;
+  *width: 27.06922743055553%;
+  *margin: 0 1.041124131944478%;
+}
+#comoFuncionaDetalle .appDetalleItem {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 3.125%;
+}
+#comoFuncionaDetalle .dashboardDetalleItem {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
 }
