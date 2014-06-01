@@ -1,5 +1,7 @@
 $(document).ready(function() {
-	$("header .IniciarSesion, #loginScreen .fondolight ").click(LightSesion);
+	$("header .IniciarSesion").click(LightSesionIn);
+	$("#loginScreen .fondolight").click(LightSesionOut);
+	 
 	$('#fullpage').fullpage({
 		menu: "#myMenu",
 		anchors:["home", "comofunciona", "pulsera", "app", "contacto"],
@@ -11,7 +13,21 @@ $(document).ready(function() {
 });
 
 
-function LightSesion(){
-	$("#loginScreen").toggleClass("activo");
-	$("#loginScreen .contenidoLight").toggleClass("animated flipInX");
+function LightSesionIn(){
+	$("#loginScreen .contenidoLight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		console.log("Animacion terminada entrar");
+	});
+	$("#loginScreen").addClass("activo");
+	$("#loginScreen .contenidoLight").addClass("animated flipInX");
+}
+
+function LightSesionOut(){
+	$("#loginScreen .contenidoLight").removeClass("flipInX");
+	$("#loginScreen .contenidoLight").addClass("fadeOutDown");
+	$("#loginScreen .contenidoLight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		console.log("Animacion terminada para salir");
+		$("#loginScreen").removeClass("activo");
+		$("#loginScreen .contenidoLight").removeClass("animated fadeOutDown");
+	});
+	
 }
