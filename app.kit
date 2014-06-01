@@ -1,29 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>KMS</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/kms.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<script src="js/kms.js"></script>
-</head>
-<body class="blanco">
-	<header>
-		<nav class="container">
-			<ul id="myMenu" [data-scroll-header]>
-				<li class="active KMS"><a href="#home" data-scroll><img src="img/kms.jpg" alt="" width="60"></a></li>
-				<li><a href="comofunciona.html" data-scroll>¿Cómo Funciona?</a></li>
-				<li><a href="pulsera.html" data-scroll>Pulsera</a></li>
-				<li><a href="app.html" data-scroll>APP</a></li>
-				<li><a href="team.html" data-scroll>Team</a></li>
-				<li class="Software">Software</li>
-				<li class="IniciarSesion">Iniciar Sesión</li>
-			</ul>
-		</nav>
-	</header>
+<!-- @import "kit/header.kit" -->
 
 <div class="section" id="appPortada">
 	<div class="container">
@@ -113,45 +88,4 @@
 	</article>
 </div>
 
-<footer>
-		<div class="container">
-			<ul>
-				<h3>ACERCA DE</h3>
-				<li><a href="#">Equipo</a></li>
-				<li><a href="#">Terminos de uso</a></li>
-				<li><a href="#">Políticas de privacidad</a></li>
-				<li><a href="#">Blog</a></li>
-			</ul>
-			<ul>
-				<h3>AYUDA</h3>
-				<li><a href="#">Preguntas Frecuentes</a></li>
-				<li><a href="#">Ideas</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="#">Noticias</a></li>
-			</ul>
-			<ul>
-				<h3>ALIANZAS</h3>
-				<li><a href="#">Patrocinadores</a></li>
-				<li><a href="#">Alianzas estratégicas</a></li>
-			</ul>
-		</div>
-	</footer>
-<script>
-    smoothScroll.init();
-</script>
-
-<div id="loginScreen" class="lightbox">
-	<div class="contenidoLight">
-		<h2>INICIAR SESIÓN</h2>
-		<p>Bienvenido a KMS para continuar debes inciar sesión porfavor proporciona los datos a continuación</p>
-		<form action="">
-			<input type="email" placeholder="Correo electrónico">
-			<input type="password" placeholder="Contraseña">
-			<input type="submit">
-		</form>
-		<a href="#">No tengo cuenta en KMS</a>
-	</div>
-	<div class="fondolight"></div>
-</div>
-</body>
-</html>
+<!-- @import "kit/footer.kit" -->
