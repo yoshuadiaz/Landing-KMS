@@ -436,6 +436,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .contacto .informacion p {
   color: #00c5db;
+  margin: 0.5em 0;
 }
 .contacto .informacion a {
   text-decoration: none;
@@ -762,4 +763,455 @@ header #myMenu li.Software:after {
   border: 0px solid;
   padding: 0.5em;
   color: #fff;
+}
+#appPortada {
+  background-image: url("../img/FondoApp.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}
+#appPortada .container {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+#appPortada .info {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-top: 4em;
+  margin-bottom: 6em;
+  font-weight: lighter;
+}
+@media (max-width: 500px) {
+  #appPortada .info {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+    margin-top: 4em;
+  }
+}
+#appPortada .info h2 {
+  color: #00c5db;
+  font-weight: normal;
+  margin: 0;
+}
+#appPortada .mano {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  position: absolute;
+  right: 0;
+  bottom: -1em;
+}
+@media (max-width: 500px) {
+  #appPortada .mano {
+    display: none;
+  }
+}
+#appPortada .mano img {
+  height: 400px;
+  max-width: inherit;
+}
+#mideActividad {
+  margin-top: 2em;
+  text-align: center;
+}
+#mideActividad a.apple {
+  display: inline;
+  float: left;
+  width: 22.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 22.904730902777818%;
+  *margin: 0 1.041124131944478%;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+#mideActividad a.android {
+  display: inline;
+  float: left;
+  width: 22.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 22.904730902777818%;
+  *margin: 0 1.041124131944478%;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+#mideActividad p {
+  font-weight: lighter;
+  color: #6b6b6b;
+}
+#mideActividad p.desempenio,
+#mideActividad p.sisOp {
+  display: inline;
+  float: left;
+  width: 64.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 64.54969618055554%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 17.7083333333333%;
+}
+#mideActividad p.dispositivos {
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.0416666666667%;
+  *width: 81.2076822916667%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 9.375%;
+  margin-bottom: 1em;
+}
+#mideActividad h2 {
+  color: #a7d06a;
+  font-weight: normal;
+}
+#mideActividad hr {
+  max-width: 100%;
+  display: block;
+  clear: both;
+  margin: 3em 0 2em;
+}
+#mideActividad img.mide {
+  display: inline;
+  float: left;
+  width: 43.75%;
+  margin: 0 1.0416666666667%;
+  *width: 43.72721354166668%;
+  *margin: 0 1.041124131944478%;
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+}
+#mideActividad img.desempenio {
+  max-width: 250px;
+  margin: 2em auto 0;
+}
+#mideActividad img.sisOp {
+  display: inline;
+  float: left;
+  width: 39.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 39.56271701388887%;
+  *margin: 0 1.041124131944478%;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+#mideActividad article.dispositivo {
+  display: inline;
+  float: left;
+  width: 17.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 17.907335069444485%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#mideActividad article.dispositivo:nth-child(5n+1) {
+  clear: left;
+}
+@media (max-width: 500px) {
+  #mideActividad article.dispositivo {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.0416666666667%;
+    *width: 31.233723958333343%;
+    *margin: 0 1.041124131944478%;
+  }
+  #mideActividad article.dispositivo:nth-child(5n+1) {
+    clear: none;
+  }
+  #mideActividad article.dispositivo:nth-child(3n+1) {
+    clear: left;
+  }
+}
+#mideActividad article.dispositivo .marca {
+  display: block;
+  margin-bottom: 0.25em;
+}
+#mideActividad .info {
+  display: inline;
+  float: left;
+  width: 43.75%;
+  margin: 0 1.0416666666667%;
+  *width: 43.72721354166668%;
+  *margin: 0 1.041124131944478%;
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+}
+#team {
+  text-align: center;
+  margin-bottom: 5em;
+  overflow: hidden;
+}
+#team h2 {
+  color: #a7d06a;
+  font-weight: normal;
+}
+#team p {
+  display: inline;
+  float: left;
+  width: 64.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 64.54969618055554%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 17.7083333333333%;
+  margin-bottom: 2em;
+}
+#team section.team {
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.0416666666667%;
+  *width: 81.2076822916667%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 9.375%;
+}
+#team article {
+  display: inline;
+  float: left;
+  width: 22.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 22.904730902777818%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+  margin-bottom: 1em;
+}
+#team article:nth-child(3n) {
+  clear: left;
+}
+#team article .nombre {
+  display: block;
+  color: #00c5db;
+}
+#team article .cargo {
+  display: block;
+  font-weight: lighter;
+  color: #5a5a5a;
+}
+#fondeadores {
+  text-align: center;
+  background-color: #808080;
+  color: #fff;
+  overflow: hidden;
+  padding: 1em 0 2em;
+  display: block;
+  clear: both;
+}
+#fondeadores h2 {
+  color: #a7d06a;
+  font-weight: normal;
+}
+#fondeadores .colFond {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  font-weight: lighter;
+}
+#pulseraIntro {
+  background-color: #e6e6e6;
+  overflow: hidden;
+  text-align: center;
+}
+#pulseraIntro h2 {
+  color: #a7d06a;
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+#pulseraIntro .info {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+@media (max-width: 500px) {
+  #pulseraIntro .info {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+#pulseraIntro figure {
+  display: inline;
+  float: left;
+  width: 56.25%;
+  margin: 0 1.0416666666667%;
+  *width: 56.22070312500002%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+@media (max-width: 500px) {
+  #pulseraIntro figure {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+.pulseraIntro {
+  text-align: center;
+}
+.pulseraIntro a {
+  overflow: hidden;
+  display: inline-block;
+}
+.pulseraIntro a.manual {
+  display: inline;
+  float: left;
+  width: 64.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 64.54969618055554%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 17.7083333333333%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pulseraIntro a.manual:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.pulseraIntro h2 {
+  color: #a7d06a;
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+.pulseraIntro h3 {
+  color: #00ccc3;
+  margin: 0 0 0.5em;
+  font-weight: lighter;
+  font-size: 1em;
+}
+.pulseraIntro hr {
+  max-width: 100%;
+  display: block;
+  clear: both;
+  margin: 3em 0 2em;
+}
+.pulseraIntro p.manual {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 26.041666666666703%;
+  display: inline-block;
+  clear: both;
+}
+@media (max-width: 600px) {
+  .pulseraIntro p.manual {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+  }
+}
+.pulseraIntro img.manual {
+  width: 397px;
+  max-width: 80%;
+  margin: 1em;
+  display: inline-block;
+  clear: both;
+}
+.pulseraIntro article.caracteristicas {
+  display: inline;
+  float: left;
+  width: 17.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 17.907335069444485%;
+  *margin: 0 1.041124131944478%;
+  overflow: hidden;
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+@media (max-width: 700px) {
+  .pulseraIntro article.caracteristicas {
+    display: inline;
+    float: left;
+    width: 39.5833333333333%;
+    margin: 0 1.0416666666667%;
+    *width: 39.56271701388887%;
+    *margin: 0 1.041124131944478%;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .pulseraIntro article.caracteristicas:nth-child(2n+2) {
+    clear: left;
+  }
+}
+@media (max-width: 500px) {
+  .pulseraIntro article.caracteristicas {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+    display: inline-block;
+  }
+}
+.pulseraIntro article.caracteristicas figure {
+  text-align: center;
+  height: 100px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.pulseraIntro article.caracteristicas figure img {
+  width: 100%;
+  max-width: 100px;
+}
+.pulseraIntro article.caracteristicas p {
+  border-bottom: 1px solid #b3b3b3;
+  margin: 0;
+  padding: 0.5em 0;
+  font-weight: lighter;
+}
+.pulseraIntro article.caracteristicas p:last-child {
+  border-bottom: 0px solid;
 }

@@ -247,6 +247,7 @@ $KMS-Blanco = #f2f2f2
 			margin-bottom 2em
 		p
 			color $KMS-Azul
+			margin .5em 0
 		a
 			text-decoration none
 		.twitter
@@ -457,3 +458,246 @@ header
 					border 0px solid
 					padding 0.5em
 					color white
+#appPortada
+	background-image url("../img/FondoApp.jpg")
+	background-position center center
+	background-size cover
+	overflow hidden
+	color white
+	text-align center
+	.container
+		position relative
+		height 400px
+		overflow hidden
+	.info
+		column(6)
+		margin-top 4em
+		margin-bottom 6em
+		font-weight lighter
+		@media (max-width: 500px)
+			column(12)
+			margin-top 4em
+		h2
+			color $KMS-Azul
+			font-weight normal
+			margin 0
+	.mano
+		column(6)
+		position absolute
+		right 0
+		bottom -1em
+		@media (max-width: 500px)
+			display none
+		img
+			height 400px
+			max-width inherit
+#mideActividad
+	margin-top 2em
+	text-align center
+	a
+		&.apple
+			column(3)
+			float none
+			display inline-block
+			vertical-align middle
+		&.android
+			column(3)
+			float none
+			display inline-block
+			vertical-align middle
+	p
+		font-weight lighter
+		color darken($KMS-Gris,40%)
+		&.desempenio, &.sisOp
+			column(8)
+			push(2)
+		&.dispositivos
+			column(10)
+			push(1)
+			margin-bottom 1em
+	h2
+		color $KMS-Verde
+		font-weight normal
+	hr
+		max-width 100%
+		display block
+		clear both
+		margin 3em 0 2em 
+	img
+		&.mide
+			column(5.5)
+			vertical-align middle
+			display inline-block
+			float none
+		&.desempenio
+			max-width 250px
+			margin 2em auto 0
+		&.sisOp
+			column(5)
+			float none
+			display inline-block
+			vertical-align middle
+	article
+		&.dispositivo
+			column(12/5)
+			display inline-block
+			vertical-align top
+			padding 1em
+			box-sizing border-box
+			&:nth-child(5n+1)
+				clear left
+			@media (max-width: 500px)
+				column(4)
+				&:nth-child(5n+1)
+					clear none
+				&:nth-child(3n+1)
+					clear left
+			.marca
+				display block
+				margin-bottom .25em
+	.info
+		column(5.5)
+		vertical-align middle
+		display inline-block
+		float none
+#team
+	text-align center
+	margin-bottom 5em
+	overflow hidden
+	h2
+		color $KMS-Verde
+		font-weight normal
+	p
+		column(8)
+		push(2)
+		margin-bottom 2em
+	section.team
+		column(10)
+		push(1)
+	article
+		column(3)
+		display inline-block
+		vertical-align top
+		float none
+		margin-bottom 1em
+		&:nth-child(3n)
+			clear left
+		.nombre
+			display block
+			color $KMS-Azul
+		.cargo
+			display block
+			font-weight lighter
+			color darken($KMS-Gris,50%)
+#fondeadores
+	text-align center
+	background-color #808080
+	color white
+	overflow hidden
+	padding 1em 0 2em
+	display block 
+	clear both
+	h2
+		color $KMS-Verde
+		font-weight normal
+	.colFond
+		column(4)
+		font-weight lighter
+#pulseraIntro
+	background-color #E6E6E6
+	overflow hidden
+	text-align center
+	h2
+		color $KMS-Verde
+		margin 0 0 .5em
+		font-weight normal
+	.info
+		column(4)
+		display inline-block
+		vertical-align middle
+		float none
+		@media (max-width:500px)
+			column(12)
+	figure
+		column(7)
+		display inline-block
+		vertical-align middle
+		float none
+		@media (max-width:500px)
+			column(12)
+.pulseraIntro
+	text-align center
+	a
+		overflow hidden
+		display inline-block
+		&.manual
+			column(8)
+			push(2)
+			margin-top 1em
+			margin-bottom 1em
+			transition all .5s ease
+			&:hover
+				transform scale(1.2)
+	h2
+		color $KMS-Verde
+		margin 0 0 .5em
+		font-weight normal
+	h3
+		color $KMS-Aqua
+		margin 0 0 .5em
+		font-weight lighter
+		font-size 1em
+	hr
+		max-width 100%
+		display block
+		clear both
+		margin 3em 0 2em
+	p.manual
+		column(6)
+		push(3)
+		display inline-block
+		clear both
+		@media(max-width:600px)
+			column(10)
+			push(1)
+	img
+		&.manual
+			width 397px
+			max-width 80%
+			margin 1em
+			display inline-block
+			clear both
+	article
+		&.caracteristicas
+			column(12/5)
+			overflow hidden
+			margin-top 1em
+			padding-bottom 1em
+			@media(max-width:700px)
+				column(5)
+				display inline-block
+				float none
+				vertical-align top
+				&:nth-child(2n+2)
+					clear left
+			@media(max-width:500px)
+				column(10)
+				push(1)
+				display inline-block
+					
+			figure
+				text-align center
+				height 100px
+				max-width 100%
+				padding 0
+				margin 0
+				img
+					width 100%
+					max-width 100px
+			p
+				border-bottom 1px solid $KMS-Gris
+				margin 0
+				padding .5em 0
+				font-weight lighter
+				&:last-child
+					border-bottom 0px solid
