@@ -1597,6 +1597,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/kms.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/kms.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1687,7 +1696,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3101,
+		"initialSize": 3258,
 		"inputAbbreviatedPath": "\/img\/bateria.jpg",
 		"outputAbbreviatedPath": "\/img\/bateria.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1885,7 +1894,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2712,
+		"initialSize": 2902,
 		"inputAbbreviatedPath": "\/img\/monitoreo.jpg",
 		"outputAbbreviatedPath": "\/img\/monitoreo.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1896,7 +1905,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2809,
+		"initialSize": 2897,
 		"inputAbbreviatedPath": "\/img\/pesotamanio.jpg",
 		"outputAbbreviatedPath": "\/img\/pesotamanio.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1925,13 +1934,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/pulserafunc1.jpg": {
+	"\/img\/pulseraFunc1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48988,
-		"inputAbbreviatedPath": "\/img\/pulserafunc1.jpg",
-		"outputAbbreviatedPath": "\/img\/pulserafunc1.jpg",
+		"inputAbbreviatedPath": "\/img\/pulseraFunc1.jpg",
+		"outputAbbreviatedPath": "\/img\/pulseraFunc1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1940,7 +1949,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 165633,
+		"initialSize": 16467,
 		"inputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
 		"outputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1962,7 +1971,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3802,
+		"initialSize": 3968,
 		"inputAbbreviatedPath": "\/img\/requisitos.jpg",
 		"outputAbbreviatedPath": "\/img\/requisitos.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1984,7 +1993,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3770,
+		"initialSize": 3823,
 		"inputAbbreviatedPath": "\/img\/sincronizacion.jpg",
 		"outputAbbreviatedPath": "\/img\/sincronizacion.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2215,7 +2224,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Landing KMS",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_orange"
+	"iconImageName": "meme-ariel"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
