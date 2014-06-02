@@ -1610,7 +1610,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6849,
+		"initialSize": 6550,
 		"inputAbbreviatedPath": "\/img\/aaron.jpg",
 		"outputAbbreviatedPath": "\/img\/aaron.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1679,6 +1679,39 @@
 		"initialSize": 23462,
 		"inputAbbreviatedPath": "\/img\/badges.jpg",
 		"outputAbbreviatedPath": "\/img\/badges.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bateria.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3101,
+		"inputAbbreviatedPath": "\/img\/bateria.jpg",
+		"outputAbbreviatedPath": "\/img\/bateria.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/descargarManual.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10118,
+		"inputAbbreviatedPath": "\/img\/descargarManual.jpg",
+		"outputAbbreviatedPath": "\/img\/descargarManual.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/descargarManual.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12695,
+		"inputAbbreviatedPath": "\/img\/descargarManual.png",
+		"outputAbbreviatedPath": "\/img\/descargarManual.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1804,6 +1837,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/manualUsuario.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21566,
+		"inputAbbreviatedPath": "\/img\/manualUsuario.jpg",
+		"outputAbbreviatedPath": "\/img\/manualUsuario.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mauricio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1830,9 +1874,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 60645,
+		"initialSize": 18809,
 		"inputAbbreviatedPath": "\/img\/mideIconos.jpg",
 		"outputAbbreviatedPath": "\/img\/mideIconos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/monitoreo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2712,
+		"inputAbbreviatedPath": "\/img\/monitoreo.jpg",
+		"outputAbbreviatedPath": "\/img\/monitoreo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pesotamanio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2809,
+		"inputAbbreviatedPath": "\/img\/pesotamanio.jpg",
+		"outputAbbreviatedPath": "\/img\/pesotamanio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1859,13 +1925,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/pulseraFunc1.jpg": {
+	"\/img\/pulserafunc1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48988,
-		"inputAbbreviatedPath": "\/img\/pulseraFunc1.jpg",
-		"outputAbbreviatedPath": "\/img\/pulseraFunc1.jpg",
+		"inputAbbreviatedPath": "\/img\/pulserafunc1.jpg",
+		"outputAbbreviatedPath": "\/img\/pulserafunc1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pulseraIntro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165633,
+		"inputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
+		"outputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1881,6 +1958,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/requisitos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3802,
+		"inputAbbreviatedPath": "\/img\/requisitos.jpg",
+		"outputAbbreviatedPath": "\/img\/requisitos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ricardo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1888,6 +1976,17 @@
 		"initialSize": 7839,
 		"inputAbbreviatedPath": "\/img\/ricardo.jpg",
 		"outputAbbreviatedPath": "\/img\/ricardo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sincronizacion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3770,
+		"inputAbbreviatedPath": "\/img\/sincronizacion.jpg",
+		"outputAbbreviatedPath": "\/img\/sincronizacion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1907,7 +2006,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 45953,
+		"initialSize": 45441,
 		"inputAbbreviatedPath": "\/img\/sisOp.jpg",
 		"outputAbbreviatedPath": "\/img\/sisOp.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1940,7 +2039,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5119,
+		"initialSize": 6613,
 		"inputAbbreviatedPath": "\/img\/yoshua.jpg",
 		"outputAbbreviatedPath": "\/img\/yoshua.jpg",
 		"outputPathIsOutsideProject": 0,
