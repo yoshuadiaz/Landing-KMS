@@ -1033,3 +1033,185 @@ header #myMenu li.Software:after {
   *margin: 0 1.041124131944478%;
   font-weight: lighter;
 }
+#pulseraIntro {
+  background-color: #e6e6e6;
+  overflow: hidden;
+  text-align: center;
+}
+#pulseraIntro h2 {
+  color: #a7d06a;
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+#pulseraIntro .info {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+@media (max-width: 500px) {
+  #pulseraIntro .info {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+#pulseraIntro figure {
+  display: inline;
+  float: left;
+  width: 56.25%;
+  margin: 0 1.0416666666667%;
+  *width: 56.22070312500002%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+@media (max-width: 500px) {
+  #pulseraIntro figure {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+.pulseraIntro {
+  text-align: center;
+}
+.pulseraIntro a {
+  overflow: hidden;
+  display: inline-block;
+}
+.pulseraIntro a.manual {
+  display: inline;
+  float: left;
+  width: 64.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 64.54969618055554%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 17.7083333333333%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pulseraIntro a.manual:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.pulseraIntro h2 {
+  color: #a7d06a;
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+.pulseraIntro h3 {
+  color: #00ccc3;
+  margin: 0 0 0.5em;
+  font-weight: lighter;
+  font-size: 1em;
+}
+.pulseraIntro hr {
+  max-width: 100%;
+  display: block;
+  clear: both;
+  margin: 3em 0 2em;
+}
+.pulseraIntro p.manual {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 26.041666666666703%;
+  display: inline-block;
+  clear: both;
+}
+@media (max-width: 600px) {
+  .pulseraIntro p.manual {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+  }
+}
+.pulseraIntro img.manual {
+  width: 397px;
+  max-width: 80%;
+  margin: 1em;
+  display: inline-block;
+  clear: both;
+}
+.pulseraIntro article.caracteristicas {
+  display: inline;
+  float: left;
+  width: 17.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 17.907335069444485%;
+  *margin: 0 1.041124131944478%;
+  overflow: hidden;
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+@media (max-width: 700px) {
+  .pulseraIntro article.caracteristicas {
+    display: inline;
+    float: left;
+    width: 39.5833333333333%;
+    margin: 0 1.0416666666667%;
+    *width: 39.56271701388887%;
+    *margin: 0 1.041124131944478%;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .pulseraIntro article.caracteristicas:nth-child(2n+2) {
+    clear: left;
+  }
+}
+@media (max-width: 500px) {
+  .pulseraIntro article.caracteristicas {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+    display: inline-block;
+  }
+}
+.pulseraIntro article.caracteristicas figure {
+  text-align: center;
+  height: 100px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.pulseraIntro article.caracteristicas figure img {
+  width: 100%;
+  max-width: 100px;
+}
+.pulseraIntro article.caracteristicas p {
+  border-bottom: 1px solid #b3b3b3;
+  margin: 0;
+  padding: 0.5em 0;
+  font-weight: lighter;
+}
+.pulseraIntro article.caracteristicas p:last-child {
+  border-bottom: 0px solid;
+}
