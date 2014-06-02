@@ -2,24 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17018",
 "files": {
-	"\/app.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/app.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app.kit",
-		"outputAbbreviatedPath": "\/app.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bower_components\/animate.css\/animate.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1570,15 +1552,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/comofunciona.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/comofunciona.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/comofunciona.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1606,17 +1579,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/aaron.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6849,
-		"inputAbbreviatedPath": "\/img\/aaron.jpg",
-		"outputAbbreviatedPath": "\/img\/aaron.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/ahorro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1628,17 +1590,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/android.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8676,
-		"inputAbbreviatedPath": "\/img\/android.jpg",
-		"outputAbbreviatedPath": "\/img\/android.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/app.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1646,17 +1597,6 @@
 		"initialSize": 160210,
 		"inputAbbreviatedPath": "\/img\/app.jpg",
 		"outputAbbreviatedPath": "\/img\/app.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/apple.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11305,
-		"inputAbbreviatedPath": "\/img\/apple.jpg",
-		"outputAbbreviatedPath": "\/img\/apple.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1683,17 +1623,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/dispositivoEjemplo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2477,
-		"inputAbbreviatedPath": "\/img\/dispositivoEjemplo.jpg",
-		"outputAbbreviatedPath": "\/img\/dispositivoEjemplo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/dispositivos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1705,17 +1634,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/FondoApp.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 147591,
-		"inputAbbreviatedPath": "\/img\/FondoApp.jpg",
-		"outputAbbreviatedPath": "\/img\/FondoApp.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/googleplay.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1723,17 +1641,6 @@
 		"initialSize": 7729,
 		"inputAbbreviatedPath": "\/img\/googleplay.jpg",
 		"outputAbbreviatedPath": "\/img\/googleplay.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/graficadesempenio.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17811,
-		"inputAbbreviatedPath": "\/img\/graficadesempenio.jpg",
-		"outputAbbreviatedPath": "\/img\/graficadesempenio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1771,17 +1678,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/karen.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8167,
-		"inputAbbreviatedPath": "\/img\/karen.jpg",
-		"outputAbbreviatedPath": "\/img\/karen.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/kilometros.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1804,17 +1700,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mauricio.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10022,
-		"inputAbbreviatedPath": "\/img\/mauricio.jpg",
-		"outputAbbreviatedPath": "\/img\/mauricio.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/metas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1822,17 +1707,6 @@
 		"initialSize": 4045,
 		"inputAbbreviatedPath": "\/img\/metas.jpg",
 		"outputAbbreviatedPath": "\/img\/metas.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mideIconos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60645,
-		"inputAbbreviatedPath": "\/img\/mideIconos.jpg",
-		"outputAbbreviatedPath": "\/img\/mideIconos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1870,50 +1744,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/raul.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6934,
-		"inputAbbreviatedPath": "\/img\/raul.jpg",
-		"outputAbbreviatedPath": "\/img\/raul.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/ricardo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7839,
-		"inputAbbreviatedPath": "\/img\/ricardo.jpg",
-		"outputAbbreviatedPath": "\/img\/ricardo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sinuhe.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6267,
-		"inputAbbreviatedPath": "\/img\/sinuhe.jpg",
-		"outputAbbreviatedPath": "\/img\/sinuhe.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sisOp.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45953,
-		"inputAbbreviatedPath": "\/img\/sisOp.jpg",
-		"outputAbbreviatedPath": "\/img\/sisOp.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/sueno.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1924,59 +1754,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/img\/victor.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7251,
-		"inputAbbreviatedPath": "\/img\/victor.jpg",
-		"outputAbbreviatedPath": "\/img\/victor.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/yoshua.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5119,
-		"inputAbbreviatedPath": "\/img\/yoshua.jpg",
-		"outputAbbreviatedPath": "\/img\/yoshua.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/kms-builder.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/kms-builder.js",
-		"outputAbbreviatedPath": "\/js\/min\/kms-builder-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/kms.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/kms.js",
-		"outputAbbreviatedPath": "\/js\/min\/kms-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/js\/min\/smooth-scroll-ck.js": {
 		"fileType": 64,
@@ -2000,30 +1777,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/kit\/footer.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/kit\/footer.kit",
-		"outputAbbreviatedPath": "\/kit\/footer.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kit\/header.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/header.kit",
 		"outputAbbreviatedPath": "\/kit\/header.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pulsera.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pulsera.html",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2058,21 +1817,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/styles\/kms.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 1,
-		"inputAbbreviatedPath": "\/styles\/kms.styl",
-		"outputAbbreviatedPath": "\/css\/kms.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0
-		},
 	"\/styles\/vendors\/grid.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -2087,24 +1831,6 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
-		},
-	"\/team.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/team.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/team.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/team.kit",
-		"outputAbbreviatedPath": "\/team.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
