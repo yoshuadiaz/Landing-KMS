@@ -267,25 +267,38 @@ footer
 		font-size 1em
 		margin 1em 0
 		font-weight lighter
-	ul
+	> ul
 		column(2.3)
 		padding 0
 		vertical-align top
 		padding-bottom 1em
 		font-size .8em
+		@media(max-width:730px)
+			column(6)
+			font-size 1em
+			padding .5em
+			box-sizing border-box
 		&:last-child
 			column(2.6)
 			background-color darken($KMS-Gris,60%)
 			float right
 			margin-right 0
-			height 150px
+			height 180px
 			padding-left 1em
+			@media(max-width:730px)
+				width 100%
+				text-align center
+				li
+					width 50%
+					display inline-block
 		li
 			list-style-type dotted
-			margin .25em
-	a
-		color $KMS-Gris
-		text-decoration none
+			margin .25em .25em .25em 1em
+			ul
+				padding-left .5em
+			a
+				color white
+				text-decoration none
 small.container
 	text-align center
 	color $KMS-Azul

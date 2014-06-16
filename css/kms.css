@@ -462,7 +462,7 @@ footer h3 {
   margin: 1em 0;
   font-weight: lighter;
 }
-footer ul {
+footer > ul {
   display: inline;
   float: left;
   width: 17.0833333333333%;
@@ -474,7 +474,22 @@ footer ul {
   padding-bottom: 1em;
   font-size: 0.8em;
 }
-footer ul:last-child {
+@media (max-width: 730px) {
+  footer > ul {
+    display: inline;
+    float: left;
+    width: 47.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 47.89171006944449%;
+    *margin: 0 1.041124131944478%;
+    font-size: 1em;
+    padding: 0.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+footer > ul:last-child {
   display: inline;
   float: left;
   width: 19.5833333333333%;
@@ -484,15 +499,28 @@ footer ul:last-child {
   background-color: #484848;
   float: right;
   margin-right: 0;
-  height: 150px;
+  height: 180px;
   padding-left: 1em;
 }
-footer ul li {
-  list-style-type: dotted;
-  margin: 0.25em;
+@media (max-width: 730px) {
+  footer > ul:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  footer > ul:last-child li {
+    width: 50%;
+    display: inline-block;
+  }
 }
-footer a {
-  color: #b3b3b3;
+footer > ul li {
+  list-style-type: dotted;
+  margin: 0.25em 0.25em 0.25em 1em;
+}
+footer > ul li ul {
+  padding-left: 0.5em;
+}
+footer > ul li a {
+  color: #fff;
   text-decoration: none;
 }
 small.container {
