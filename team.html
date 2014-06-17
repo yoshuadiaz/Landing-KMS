@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,15 +14,18 @@
 <body class="blanco">
 	<header>
 		<nav class="container">
-			<ul id="myMenu" [data-scroll-header]>
-				<li class="active KMS"><a href="index.html" data-scroll><img src="img/kms.jpg" alt="" width="60"></a></li>
-				<li><a href="comofunciona.html" data-scroll>¿Cómo Funciona?</a></li>
-				<li><a href="pulsera.html" data-scroll>Pulsera</a></li>
-				<li><a href="app.html" data-scroll>APP</a></li>
-				<li><a href="team.html" data-scroll>Team</a></li>
+			<h1><a href="index.html"><img src="img/kms.jpg" alt="" width="60"></a></h1>
+			<ul class="animated">
+				<li><a href="comofunciona.html">¿Cómo Funciona?</a></li>
+				<li><a href="pulsera.html">Pulsera</a></li>
+				<li><a href="app.html">APP</a></li>
+				<li><a href="team.html">Team</a></li>
 				<li class="Software">Software</li>
 				<li class="IniciarSesion">Iniciar Sesión</li>
 			</ul>
+			<span class="menuInvocador">
+				<img src="img/menuInvocador.jpg">
+			</span>
 		</nav>
 	</header>
 <div class="section">
@@ -189,29 +193,57 @@
 </div>
 </div>
 
-<footer>
-		<div class="container">
-			<ul>
-				<h3>ACERCA DE</h3>
-				<li><a href="#">Equipo</a></li>
-				<li><a href="#">Terminos de uso</a></li>
-				<li><a href="#">Políticas de privacidad</a></li>
-				<li><a href="#">Blog</a></li>
-			</ul>
-			<ul>
-				<h3>AYUDA</h3>
-				<li><a href="#">Preguntas Frecuentes</a></li>
-				<li><a href="#">Ideas</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="#">Noticias</a></li>
-			</ul>
-			<ul>
-				<h3>ALIANZAS</h3>
-				<li><a href="#">Patrocinadores</a></li>
-				<li><a href="#">Alianzas estratégicas</a></li>
-			</ul>
-		</div>
-	</footer>
+<footer class="container">
+<ul>
+	<h3>¿Cómo funciona?</h3>
+	<li><a href="">Ecosistema</a></li>
+	<li><a href="">Recompensas</a></li>
+	<li><a href="">Tips</a></li>
+	<li><a href="">Metas</a></li>
+</ul>
+
+<ul>
+	<h3>Pulsera</h3>
+	<li><a href="">Características</a></li>
+	<li><a href="">Componentes del P.</a>
+		<ul>
+			<li><a href="">Pulsera</a></li>
+			<li><a href="">Innner core</a></li>
+			<li><a href="">Cargador</a></li>
+		</ul>
+	</li>
+	<li><a href="">Manual de usuario</a></li>
+</ul>
+
+<ul>
+	<h3>App</h3>
+	<li><a href="">Ecosistema</a></li>
+	<li><a href="">Recompensas</a></li>
+	<li><a href="">Tips</a></li>
+	<li><a href="">Metas</a></li>
+</ul>
+
+<ul>
+	<h3>Team</h3>
+	<li><a href="">Nosotros</a></li>
+	<li><a href="">Nuestros fondeadores</a></li>
+	<li><a href="">Contacto</a></li>
+
+</ul>
+<ul>
+	<h3>KMS</h3>
+	<li><a href="">Polícas de privacidad</a></li>
+	<li><a href="">Términos y condiciones</a></li>
+	<li><a href="">Preguntas Frecuentes</a></li>
+
+
+
+</ul>
+</footer>
+<small class="container">
+	<p>KMS se dedica a motivar y ayudar a las personas a llevar una vida más sana, activa y con mayor calidad.</p>
+	<p>©2014 KMS Invent S.A.P.I. Todos los derechos reservados.</p>
+</small>
 <script>
     smoothScroll.init();
 </script>

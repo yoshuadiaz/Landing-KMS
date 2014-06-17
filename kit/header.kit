@@ -10,17 +10,20 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script src="js/kms.js"></script>
 </head>
-<body class="blanco">
+<body class="<!--$bodyClass-->">
 	<header>
 		<nav class="container">
-			<ul id="myMenu" [data-scroll-header]>
-				<li class="active KMS"><a href="index.html" data-scroll><img src="img/kms.jpg" alt="" width="60"></a></li>
-				<li><a href="comofunciona.html" data-scroll>¿Cómo Funciona?</a></li>
-				<li><a href="pulsera.html" data-scroll>Pulsera</a></li>
-				<li><a href="app.html" data-scroll>APP</a></li>
-				<li><a href="team.html" data-scroll>Team</a></li>
+			<h1><a href="index.html"><img src="img/kms.jpg" alt="" width="60"></a></h1>
+			<ul class="animated">
+				<li><a href="comofunciona.html">¿Cómo Funciona?</a></li>
+				<li><a href="pulsera.html">Pulsera</a></li>
+				<li><a href="app.html">APP</a></li>
+				<li><a href="team.html">Team</a></li>
 				<li class="Software">Software</li>
 				<li class="IniciarSesion">Iniciar Sesión</li>
 			</ul>
+			<span class="menuInvocador">
+				<img src="img/menuInvocador.jpg">
+			</span>
 		</nav>
 	</header>
