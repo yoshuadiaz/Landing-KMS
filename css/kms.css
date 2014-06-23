@@ -1171,7 +1171,7 @@ header nav ul li.Software:after {
   vertical-align: middle;
   float: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 705px) {
   #pulseraIntro .info {
     display: inline;
     float: left;
@@ -1192,7 +1192,7 @@ header nav ul li.Software:after {
   vertical-align: middle;
   float: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 705px) {
   #pulseraIntro figure {
     display: inline;
     float: left;
