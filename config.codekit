@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17018",
 "files": {
+	"\/app.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1561,6 +1570,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/comofunciona.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/comofunciona.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/comofunciona.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1575,6 +1593,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/jquery.fullPage.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/kms.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/kms.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1621,11 +1648,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/app-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47137,
+		"inputAbbreviatedPath": "\/img\/app-min.jpg",
+		"outputAbbreviatedPath": "\/img\/app-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/app.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 160210,
+		"initialSize": 148732,
 		"inputAbbreviatedPath": "\/img\/app.jpg",
 		"outputAbbreviatedPath": "\/img\/app.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1665,6 +1703,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bateria.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3258,
+		"inputAbbreviatedPath": "\/img\/bateria.jpg",
+		"outputAbbreviatedPath": "\/img\/bateria.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/descargarManual.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10118,
+		"inputAbbreviatedPath": "\/img\/descargarManual.jpg",
+		"outputAbbreviatedPath": "\/img\/descargarManual.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/descargarManual.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12695,
+		"inputAbbreviatedPath": "\/img\/descargarManual.png",
+		"outputAbbreviatedPath": "\/img\/descargarManual.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dispositivoEjemplo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1672,6 +1743,17 @@
 		"initialSize": 2477,
 		"inputAbbreviatedPath": "\/img\/dispositivoEjemplo.jpg",
 		"outputAbbreviatedPath": "\/img\/dispositivoEjemplo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dispositivos-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72710,
+		"inputAbbreviatedPath": "\/img\/dispositivos-min.jpg",
+		"outputAbbreviatedPath": "\/img\/dispositivos-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1786,6 +1868,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/manualUsuario.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21566,
+		"inputAbbreviatedPath": "\/img\/manualUsuario.jpg",
+		"outputAbbreviatedPath": "\/img\/manualUsuario.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mauricio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1793,6 +1886,17 @@
 		"initialSize": 10022,
 		"inputAbbreviatedPath": "\/img\/mauricio.jpg",
 		"outputAbbreviatedPath": "\/img\/mauricio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/menuInvocador.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 853,
+		"inputAbbreviatedPath": "\/img\/menuInvocador.jpg",
+		"outputAbbreviatedPath": "\/img\/menuInvocador.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1819,6 +1923,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/monitoreo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2902,
+		"inputAbbreviatedPath": "\/img\/monitoreo.jpg",
+		"outputAbbreviatedPath": "\/img\/monitoreo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pesotamanio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2897,
+		"inputAbbreviatedPath": "\/img\/pesotamanio.jpg",
+		"outputAbbreviatedPath": "\/img\/pesotamanio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/premios.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1826,6 +1952,17 @@
 		"initialSize": 13619,
 		"inputAbbreviatedPath": "\/img\/premios.jpg",
 		"outputAbbreviatedPath": "\/img\/premios.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pulsera-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44661,
+		"inputAbbreviatedPath": "\/img\/pulsera-min.jpg",
+		"outputAbbreviatedPath": "\/img\/pulsera-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1841,6 +1978,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pulseraFunc1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48988,
+		"inputAbbreviatedPath": "\/img\/pulseraFunc1.jpg",
+		"outputAbbreviatedPath": "\/img\/pulseraFunc1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pulseraIntro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16467,
+		"inputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
+		"outputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/raul.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1852,6 +2011,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/requisitos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3968,
+		"inputAbbreviatedPath": "\/img\/requisitos.jpg",
+		"outputAbbreviatedPath": "\/img\/requisitos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ricardo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1859,6 +2029,17 @@
 		"initialSize": 7839,
 		"inputAbbreviatedPath": "\/img\/ricardo.jpg",
 		"outputAbbreviatedPath": "\/img\/ricardo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sincronizacion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3823,
+		"inputAbbreviatedPath": "\/img\/sincronizacion.jpg",
+		"outputAbbreviatedPath": "\/img\/sincronizacion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1920,10 +2101,19 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.kit",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1944,6 +2134,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/kms.js",
 		"outputAbbreviatedPath": "\/js\/min\/kms-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/kms-builder-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/kms-builder-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/kms-builder-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1980,6 +2181,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/header.kit",
+		"outputAbbreviatedPath": "\/kit\/header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pulsera.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pulsera.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pulsera.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pulsera.kit",
+		"outputAbbreviatedPath": "\/pulsera.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Referencias\/KMS-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2002,6 +2230,21 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/styles\/kms.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 1,
+		"inputAbbreviatedPath": "\/styles\/kms.styl",
+		"outputAbbreviatedPath": "\/css\/kms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
 	"\/styles\/vendors\/grid.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -2009,13 +2252,22 @@
 		"ignoreWasSetByUser": 1,
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/styles\/vendors\/grid.styl",
-		"outputAbbreviatedPath": "\/css\/grid.css",
+		"outputAbbreviatedPath": "\/styles\/css\/grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
+		},
+	"\/team.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/team.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/team.kit": {
 		"fileType": 2048,
@@ -2029,14 +2281,22 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yoshua Díaz",
+"lastSavedByUser": "CTIN",
 "manualImportLinks": {
+	"\/js\/kms-builder.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/smooth-scroll.js",
+			"position": 0,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Landing KMS",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_orange"
+	"iconImageName": "meme-ariel"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -2616,7 +2876,7 @@
 	"stylusAutoOutputPathRelativePath": "..\/css",
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
-	"stylusAutoOutputPathStyle": 1,
+	"stylusAutoOutputPathStyle": 2,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,

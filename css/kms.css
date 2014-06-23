@@ -31,6 +31,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .container.homeSlides {
   margin: 0 4em;
   overflow: hidden;
+  position: relative;
 }
 .section {
   padding-top: 5em;
@@ -76,7 +77,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .home .homeSlides {
     max-height: inherit;
     padding-bottom: 2em;
-    height: 100vh;
   }
 }
 .home #imagenCelular {
@@ -87,15 +87,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   *width: 56.22070312500002%;
   *margin: 0 1.041124131944478%;
 }
-.home #imagenCelular figure {
-  margin: 0;
-  padding: 0;
-  background-image: url("../img/HandwithiPhone5.png");
-  -webkit-background-size: 350px auto;
-  background-size: 350px auto;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 430px;
+.home #imagenCelular img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 360px;
 }
 @media (max-width: 730px) {
   .home #imagenCelular {
@@ -110,7 +106,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin: 0 1.0416666666667%;
   *width: 39.56271701388887%;
   *margin: 0 1.041124131944478%;
-  padding-top: 2em;
+  padding: 1.5em 0 3em;
   text-align: center;
 }
 @media (max-width: 730px) {
@@ -168,17 +164,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center center;
   overflow: hidden;
   min-height: 450px;
   padding: 5em 0;
 }
 @media (max-width: 730px) {
   .comofunciona {
-    min-height: auto;
-    background-position: right top;
+    background-image: url("../img/dispositivos-min.jpg");
+    background-position: center top;
     -webkit-background-size: auto 300px;
     background-size: auto 300px;
+    min-height: auto;
   }
 }
 .comofunciona .informacion {
@@ -212,9 +209,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .pulsera {
   background-color: #fff;
   background-image: url("../img/pulsera.jpg");
-  background-position: left center;
-  -webkit-background-size: auto 130%;
-  background-size: auto 130%;
+  background-position: center center;
+  -webkit-background-size: contain;
+  background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
   min-height: 450px;
@@ -222,6 +219,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 @media (max-width: 730px) {
   .pulsera {
+    background-image: url("../img/pulsera-min.jpg");
     background-position: center bottom;
     -webkit-background-size: 150px auto;
     background-size: 150px auto;
@@ -272,7 +270,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app {
   background-image: url("../img/app.jpg");
-  background-position: right center;
+  background-position: center center;
   -webkit-background-size: auto 140%;
   background-size: auto 140%;
   background-repeat: no-repeat;
@@ -282,6 +280,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 @media (max-width: 730px) {
   .app {
+    background-image: url("../img/app-min.jpg");
     background-position: right bottom;
     -webkit-background-size: 500px auto;
     background-size: 500px auto;
@@ -436,7 +435,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .contacto .informacion p {
   color: #00c5db;
-  margin: 0.5em 0;
+  margin: 0.5em auto;
 }
 .contacto .informacion a {
   text-decoration: none;
@@ -451,26 +450,84 @@ footer {
   display: block;
   clear: both;
   background: #fff;
-  margin-top: 2em;
-  padding-bottom: 3em;
+  color: #fff;
+  background-color: #00c5db;
+  overflow: hidden;
+}
+footer.container {
+  margin-top: 5em;
 }
 footer h3 {
-  color: #a7d06a;
-  font-size: 1.1em;
-  margin: 0.25em 0;
-  margin-left: -1em;
+  font-size: 1em;
+  margin: 1em 0;
+  font-weight: lighter;
 }
-footer ul {
-  display: inline-block;
+footer > ul {
+  display: inline;
+  float: left;
+  width: 17.0833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 17.07443576388886%;
+  *margin: 0 1.041124131944478%;
+  padding: 0;
   vertical-align: top;
+  padding-bottom: 1em;
+  font-size: 0.8em;
 }
-footer ul li {
-  list-style-type: none;
-  margin: 0.25em;
+@media (max-width: 730px) {
+  footer > ul {
+    display: inline;
+    float: left;
+    width: 47.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 47.89171006944449%;
+    *margin: 0 1.041124131944478%;
+    font-size: 1em;
+    padding: 0.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 }
-footer a {
-  color: #b3b3b3;
+footer > ul:last-child {
+  display: inline;
+  float: left;
+  width: 19.5833333333333%;
+  margin: 0 1.0416666666667%;
+  *width: 19.57313368055553%;
+  *margin: 0 1.041124131944478%;
+  background-color: #484848;
+  float: right;
+  margin-right: 0;
+  height: 180px;
+  padding-left: 1em;
+}
+@media (max-width: 730px) {
+  footer > ul:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  footer > ul:last-child li {
+    width: 50%;
+    display: inline-block;
+  }
+}
+footer > ul li {
+  list-style-type: dotted;
+  margin: 0.25em 0.25em 0.25em 1em;
+}
+footer > ul li ul {
+  padding-left: 0.5em;
+}
+footer > ul li a {
+  color: #fff;
   text-decoration: none;
+}
+small.container {
+  text-align: center;
+  color: #00c5db;
+  margin-bottom: 3em;
+  font-size: 0.8em;
 }
 body {
   background-color: #f2f2f2;
@@ -489,61 +546,149 @@ header {
   left: 0;
   width: 100%;
   z-index: 30;
-  -webkit-box-shadow: 0 0.25em 0.1em rgba(0,0,0,0.5);
-  box-shadow: 0 0.25em 0.1em rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0.15em 0.1em rgba(0,0,0,0.3);
+  box-shadow: 0 0.15em 0.1em rgba(0,0,0,0.3);
   position: fixed;
   z-index: 20;
+  height: 4.5em;
 }
-header #myMenu {
+header nav h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding-top: 0.2em;
+}
+@media (max-width: 705px) {
+  header nav h1 {
+    display: block;
+    text-align: center;
+  }
+}
+header nav .menuInvocador {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 2.5em;
+  display: none;
+}
+@media (max-width: 705px) {
+  header nav .menuInvocador {
+    display: block;
+  }
+}
+header nav ul {
   padding: 0;
   margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
 }
-header #myMenu li {
+@media (max-width: 705px) {
+  header nav ul {
+    background-color: rgba(255,255,255,0.9);
+    -webkit-box-shadow: inset 0 0.25em 0.25em rgba(0,0,0,0.1);
+    box-shadow: inset 0 0.25em 0.25em rgba(0,0,0,0.1);
+    position: fixed;
+    top: 4.5em;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    z-index: 1;
+    height: 100%;
+    padding-top: 1em;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: none;
+  }
+  header nav ul.activo {
+    display: block;
+  }
+}
+header nav ul li {
   display: inline-block;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   padding: 0.25em;
   vertical-align: middle;
 }
-header #myMenu li:hover {
+@media (max-width: 705px) {
+  header nav ul li {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 2px solid #d9d9d9;
+  }
+}
+header nav ul li:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-header #myMenu li:after {
+@media (max-width: 705px) {
+  header nav ul li:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0.25em rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.25em rgba(0,0,0,0.5);
+  }
+}
+header nav ul li:after {
   content: "/";
   color: #d9d9d9;
   padding: 0 0.5em;
 }
-header #myMenu li:first-child:after {
+@media (max-width: 705px) {
+  header nav ul li:after {
+    content: "";
+    padding: 0;
+  }
+}
+header nav ul li:first-child:after {
   content: "";
 }
-header #myMenu li:nth-child(5):after {
+header nav ul li:nth-child(5):after {
   content: "";
 }
-header #myMenu li a {
+header nav ul li a {
   color: #00c5db;
   text-decoration: none;
 }
-header #myMenu li.KMS {
+header nav ul li.KMS {
   color: #00f;
 }
-header #myMenu li.IniciarSesion {
+header nav ul li.IniciarSesion {
   color: #a7d06a;
   float: right;
   cursor: pointer;
-  margin-top: 1.5em;
 }
-header #myMenu li.IniciarSesion:after {
+@media (max-width: 705px) {
+  header nav ul li.IniciarSesion {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+}
+header nav ul li.IniciarSesion:after {
   content: "/";
 }
-header #myMenu li.Software {
+@media (max-width: 705px) {
+  header nav ul li.IniciarSesion:after {
+    content: "";
+  }
+}
+header nav ul li.Software {
   color: #ff6168;
   float: right;
   cursor: pointer;
-  margin-top: 1.5em;
 }
-header #myMenu li.Software:after {
+@media (max-width: 705px) {
+  header nav ul li.Software {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+}
+header nav ul li.Software:after {
   content: "";
 }
 #comoFuncionaDetalle {
