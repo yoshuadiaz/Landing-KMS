@@ -2281,16 +2281,8 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "CTIN",
+"lastSavedByUser": "Yoshua Díaz",
 "manualImportLinks": {
-	"\/js\/kms-builder.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/smooth-scroll.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
