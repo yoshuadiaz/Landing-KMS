@@ -1760,6 +1760,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/FondoApp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147591,
+		"inputAbbreviatedPath": "\/img\/FondoApp.jpg",
+		"outputAbbreviatedPath": "\/img\/FondoApp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/googleplay.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
