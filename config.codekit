@@ -2221,21 +2221,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/styles\/kms.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 1,
-		"inputAbbreviatedPath": "\/styles\/kms.styl",
-		"outputAbbreviatedPath": "\/css\/kms.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
 	"\/styles\/vendors\/grid.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
