@@ -656,6 +656,12 @@ header nav ul li:nth-child(5):after {
 header nav ul li a {
   color: #00c5db;
   text-decoration: none;
+  display: inline;
+}
+@media (max-width: 705px) {
+  header nav ul li a {
+    display: block;
+  }
 }
 header nav ul li.KMS {
   color: #00f;
