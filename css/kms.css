@@ -506,10 +506,14 @@ footer > ul:last-child {
   footer > ul:last-child {
     width: 100%;
     text-align: center;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 2em;
   }
   footer > ul:last-child li {
-    width: 50%;
+    width: 100%;
     display: inline-block;
+    margin: 0.5em 0;
   }
 }
 footer > ul li {
