@@ -10,10 +10,17 @@ $(document).ready(function() {
 		verticalCentered: false,
 		fixedElements: "#imagenCelular"
 	});
+	
+	if ( location.hash == "#loginfailed" ) {
+		LightSesionIn();
+		$('#loginScreen .failed').css('display', 'inline-block');
+	} else if ( location.hash == "#login" ) {
+		LightSesionIn();
+	}
 });
 
 function menuInvocador(){
-		$("nav > ul").toggleClass("fadeInLeft activo");
+	$("nav > ul").toggleClass("fadeInLeft activo");
 }
 function LightSesionIn(){
 	$("#loginScreen .contenidoLight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
