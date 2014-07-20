@@ -47,14 +47,12 @@ $(document).ready(function() {
 		$('#loginScreen form').append(
 			$('<input />', {
 				'type' : 'hidden',
-				'name' : 'csrf_key',
-				'value': data.csrf_key
-			}),
+				'name' : 'csrf_key'
+			}).val(data.csrf_key),
 			$('<input />', {
 				'type' : 'hidden',
-				'name' : 'csrf_secret',
-				'value': data.csrf_secret
-			})
+				'name' : 'csrf_secret'
+			}).val(data.csrf_secret)
 		);
 		$submit.slideDown();
 	});
