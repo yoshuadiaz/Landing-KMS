@@ -72,6 +72,7 @@ if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
             redirect_fail();
         } else {
             header('HTTP/1.1 500 Internal Server Error');
+			var_dump($response);
             exit('Cross-Site communication parsing error: ' . $raw_response);
         }
     }
