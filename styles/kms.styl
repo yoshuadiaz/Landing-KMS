@@ -395,6 +395,9 @@ header
 				a
 					color $KMS-Azul
 					text-decoration none
+					display inline
+					@media (max-width: 705px)
+						display block
 				&.KMS
 					color blue
 				&.IniciarSesion
@@ -527,6 +530,10 @@ header
 			column(8)
 			push(2)
 			color $KMS-Gris
+			&.failed
+				margin-top 12px
+				display none
+				color red
 		form
 			column(8)
 			push(2)
@@ -702,18 +709,18 @@ header
 		margin 0 0 .5em
 		font-weight normal
 	.info
-		column(4)
+		column(3.5)
 		display inline-block
 		vertical-align middle
 		float none
-		@media (max-width:500px)
+		@media (max-width:705px)
 			column(12)
 	figure
-		column(7)
+		column(7.5)
 		display inline-block
 		vertical-align middle
 		float none
-		@media (max-width:500px)
+		@media (max-width:705px)
 			column(12)
 .pulseraIntro
 	text-align center

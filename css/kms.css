@@ -35,8 +35,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .section {
   padding-top: 5em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .btn {
@@ -57,12 +55,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .home {
   background: #147caf url("../img/home.jpg");
-  -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   color: #fff;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 730px) {
@@ -143,8 +138,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   border: 1px solid #fff;
   color: #fff;
   padding: 0.5em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .home #bienvenida form input[type="submit"] {
@@ -161,7 +154,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .comofunciona {
   background-image: url("../img/dispositivos.jpg");
-  -webkit-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -173,7 +165,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .comofunciona {
     background-image: url("../img/dispositivos-min.jpg");
     background-position: center top;
-    -webkit-background-size: auto 300px;
     background-size: auto 300px;
     min-height: auto;
   }
@@ -191,8 +182,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   overflow: hidden;
   display: block;
   clear: both;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 730px) {
@@ -210,7 +199,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-color: #fff;
   background-image: url("../img/pulsera.jpg");
   background-position: center center;
-  -webkit-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -221,7 +209,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .pulsera {
     background-image: url("../img/pulsera-min.jpg");
     background-position: center bottom;
-    -webkit-background-size: 150px auto;
     background-size: 150px auto;
   }
 }
@@ -234,8 +221,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   overflow: hidden;
   display: block;
   clear: both;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 730px) {
@@ -260,8 +245,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   text-align: center;
   margin-bottom: 1.5em;
   padding: 1em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .pulsera .informacion figure figcaption {
@@ -271,7 +254,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .app {
   background-image: url("../img/app.jpg");
   background-position: center center;
-  -webkit-background-size: auto 140%;
   background-size: auto 140%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -282,7 +264,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .app {
     background-image: url("../img/app-min.jpg");
     background-position: right bottom;
-    -webkit-background-size: 500px auto;
     background-size: 500px auto;
   }
 }
@@ -302,8 +283,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin: 0;
   background-color: rgba(255,255,255,0.8);
   padding: 1em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 730px) {
@@ -394,7 +373,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   border: 1px solid #00c5db;
   background: transparent;
   color: #00c5db;
-  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 @media (max-width: 650px) {
@@ -484,8 +462,6 @@ footer > ul {
     *margin: 0 1.041124131944478%;
     font-size: 1em;
     padding: 0.5em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -550,7 +526,6 @@ header {
   left: 0;
   width: 100%;
   z-index: 30;
-  -webkit-box-shadow: 0 0.15em 0.1em rgba(0,0,0,0.3);
   box-shadow: 0 0.15em 0.1em rgba(0,0,0,0.3);
   position: fixed;
   z-index: 20;
@@ -590,7 +565,6 @@ header nav ul {
 @media (max-width: 705px) {
   header nav ul {
     background-color: rgba(255,255,255,0.9);
-    -webkit-box-shadow: inset 0 0.25em 0.25em rgba(0,0,0,0.1);
     box-shadow: inset 0 0.25em 0.25em rgba(0,0,0,0.1);
     position: fixed;
     top: 4.5em;
@@ -601,7 +575,6 @@ header nav ul {
     z-index: 1;
     height: 100%;
     padding-top: 1em;
-    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     display: none;
   }
@@ -611,7 +584,6 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   padding: 0.25em;
   vertical-align: middle;
@@ -625,14 +597,11 @@ header nav ul li {
   }
 }
 header nav ul li:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 @media (max-width: 705px) {
   header nav ul li:hover {
     background-color: #fff;
-    -webkit-box-shadow: 0 0 0.25em rgba(0,0,0,0.5);
     box-shadow: 0 0 0.25em rgba(0,0,0,0.5);
   }
 }
@@ -656,6 +625,12 @@ header nav ul li:nth-child(5):after {
 header nav ul li a {
   color: #00c5db;
   text-decoration: none;
+  display: inline;
+}
+@media (max-width: 705px) {
+  header nav ul li a {
+    display: block;
+  }
 }
 header nav ul li.KMS {
   color: #00f;
@@ -880,6 +855,11 @@ header nav ul li.Software:after {
   margin-left: 17.7083333333333%;
   color: #b3b3b3;
 }
+.lightbox .contenidoLight p.failed {
+  margin-top: 12px;
+  display: none;
+  color: #f00;
+}
 .lightbox .contenidoLight form {
   display: inline;
   float: left;
@@ -892,8 +872,6 @@ header nav ul li.Software:after {
   display: block;
   clear: both;
   overflow: hidden;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .lightbox .contenidoLight form input {
@@ -901,8 +879,6 @@ header nav ul li.Software:after {
   padding: 0.25em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .lightbox .contenidoLight form input[type="submit"] {
@@ -916,7 +892,6 @@ header nav ul li.Software:after {
 #appPortada {
   background-image: url("../img/FondoApp.jpg");
   background-position: center center;
-  -webkit-background-size: cover;
   background-size: cover;
   overflow: hidden;
   color: #fff;
@@ -1070,8 +1045,6 @@ header nav ul li.Software:after {
   display: inline-block;
   vertical-align: top;
   padding: 1em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 #mideActividad article.dispositivo:nth-child(5n+1) {
@@ -1195,15 +1168,15 @@ header nav ul li.Software:after {
 #pulseraIntro .info {
   display: inline;
   float: left;
-  width: 31.25%;
+  width: 27.083333333333297%;
   margin: 0 1.0416666666667%;
-  *width: 31.233723958333343%;
+  *width: 27.06922743055553%;
   *margin: 0 1.041124131944478%;
   display: inline-block;
   vertical-align: middle;
   float: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 705px) {
   #pulseraIntro .info {
     display: inline;
     float: left;
@@ -1216,15 +1189,15 @@ header nav ul li.Software:after {
 #pulseraIntro figure {
   display: inline;
   float: left;
-  width: 56.25%;
+  width: 60.4166666666667%;
   margin: 0 1.0416666666667%;
-  *width: 56.22070312500002%;
+  *width: 60.38519965277783%;
   *margin: 0 1.041124131944478%;
   display: inline-block;
   vertical-align: middle;
   float: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 705px) {
   #pulseraIntro figure {
     display: inline;
     float: left;
@@ -1251,12 +1224,9 @@ header nav ul li.Software:after {
   margin-left: 17.7083333333333%;
   margin-top: 1em;
   margin-bottom: 1em;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .pulseraIntro a.manual:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 .pulseraIntro h2 {
