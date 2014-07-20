@@ -34,9 +34,28 @@ $(document).ready(function() {
 	//});
     
     if ( location.hash == "#loginfailed" ) {
-		$('#loginScreen .failed').css('display', 'inline-block');
+		$('#loginScreen .failed').fadeIn();
         LightSesionIn();
 	} else if ( location.hash == "#login" ) {
 		LightSesionIn();
 	}
+	
+	$submit = $('#loginScreen form input[type=submit]')
+	$submit.slideUp(0);
+	
+	$.get('login.php', { g: 'csrf'}).done(function(data) {
+		$('#loginScreen form').append(
+			$('<input />', {
+				'type' : 'hidden'
+				'name' : 'csrf_key',
+				'value': data.csrf_key
+			}),
+			$('<input />', {
+				'type' : 'hidden'
+				'name' : 'csrf_secret',
+				'value': data.csrf_secret
+			})
+		);
+		$submit.slideDown();
+	});
 });
