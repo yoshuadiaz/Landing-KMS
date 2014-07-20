@@ -57,8 +57,8 @@ $(document).ready(function() {
 			})
 		);
         
-        $('#loginScreen form input[name=csrf_key]').val(data.csrf_key);
-        $('#loginScreen form input[name=csrf_secret]').val(data.csrf_secret);
+        $('#loginScreen form input[name=csrf_key]').val(data.csrf_key + '');
+        $('#loginScreen form input[name=csrf_secret]').val(data.csrf_secret + '');
         
 		$submit.slideDown();
 	});
