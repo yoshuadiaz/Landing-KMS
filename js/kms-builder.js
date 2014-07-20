@@ -43,7 +43,7 @@ $(document).ready(function() {
 	var $submit = $('#loginScreen form input[type=submit]');
 	$submit.slideUp(0);
 	
-	$.get('login.php', { g: 'csrf'}).done(function(data) {
+	$.get('login.php', { g: 'csrf'}, function(data) {
         console.log(data);
         
 		$('#loginScreen form').append(
