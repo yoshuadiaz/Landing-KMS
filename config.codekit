@@ -1597,6 +1597,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/kms.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/kms.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1848,13 +1857,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/kms.jpg": {
+	"\/img\/KMS.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5521,
-		"inputAbbreviatedPath": "\/img\/kms.jpg",
-		"outputAbbreviatedPath": "\/img\/kms.jpg",
+		"inputAbbreviatedPath": "\/img\/KMS.jpg",
+		"outputAbbreviatedPath": "\/img\/KMS.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -2166,7 +2175,7 @@
 	"\/kit\/footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/footer.kit",
 		"outputAbbreviatedPath": "\/kit\/footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -2178,6 +2187,15 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/header.kit",
 		"outputAbbreviatedPath": "\/kit\/header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/login.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/login.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
