@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Simple función que devuelve una respuesta HTTP 303 See Other,
+ * Simple funciï¿½n que devuelve una respuesta HTTP 303 See Other,
  * que genera un Redirect al sitio Web de KMS con el Formulario
  * de Login con el mensaje de Login Incorrecto.
  */
@@ -26,7 +26,7 @@ if (
 }
 
 /**
- * Parsear la petición según sea el caso, y devolver la respuesta.
+ * Parsear la peticiï¿½n segï¿½n sea el caso, y devolver la respuesta.
  */
 if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
     // > Calcular componentes de un CSRF medio erizo.
@@ -46,11 +46,11 @@ if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
     && isset($_POST['csrf_secret'])
     && strlen($_POST['csrf_secret']) == 40
 ) {
-    // > Validar que valores CSRF son válidos.
+    // > Validar que valores CSRF son vï¿½lidos.
     if ( $_POST['csrf_secret'] != hash_hmac('sha1', $_POST['csrf_key'], $_SERVER['KMS_API_SECRET']) )
         redirect_fail();
     
-    // > Construir URL para genera nueva sesión en App.
+    // > Construir URL para genera nueva sesiï¿½n en App.
     $uri =
         $_SERVER['KMS_API_LOGIN_ENDPOINT']
         . '?username=' . urlencode($_POST['username'])
@@ -58,7 +58,7 @@ if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
         . '&nonce=' . urlencode($_POST['csrf_key'])
         . '&apikey=' . urlencode($_SERVER['KMS_API_KEY']);
     
-    // > Enviar petición a App.
+    // > Enviar peticiï¿½n a App.
     $raw_response = file_get_contents($uri);
     if ( $raw_response === FALSE ) {
         header('HTTP/1.1 500 Internal Server Error');
@@ -72,11 +72,11 @@ if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
             redirect_fail();
         } else {
             header('HTTP/1.1 500 Internal Server Error');
-            exit('Cross-Site communication parsing error: Õ . $raw_response);
+            exit('Cross-Site communication parsing error: ' . $raw_response);
         }
     }
     
-    // > Generar redirección.
+    // > Generar redirecciï¿½n.
     $redirect_uri =
         $_SERVER['KMS_API_REDIRECT']
         . '?k=' . urlencode($response['k'])
