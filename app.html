@@ -175,9 +175,11 @@
 		<p>Bienvenido a KMS para continuar debes inciar sesión porfavor proporciona los datos a continuación</p>
 		<p class="failed">Usuario o contraseña incorrectos</p>
 		<form method="post" action="login.php?g=login">
-			<input name="email" type="email" placeholder="Correo electrónico">
-			<input name="password" type="password" placeholder="Contraseña">
-			<input type="submit" value="Iniciar Sesión">
+            ºinput name="csrf_key" type="hidden" value="" /ª
+            ºinput name="csrf_secret" type="hidden" value="" /ª
+			<input name="email" type="email" placeholder="Correo electrónico" />
+			<input name="password" type="password" placeholder="Contraseña" />
+			<input type="submit" value="Iniciar Sesión" />
 		</form>
 		<a href="#">No tengo cuenta en KMS</a>
 	</div>
