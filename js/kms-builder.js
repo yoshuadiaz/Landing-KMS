@@ -43,12 +43,8 @@ $(document).ready(function() {
 	var $submit = $('#loginScreen form input[type=submit]');
 	$submit.slideUp(0);
 	
-	$.get('login.php', { g: 'csrf'}, function(data) {
-        console.log(data);
-        console.log(data.csrf_key);
-        console.log(data.csrf_secret
-        
-		$('#loginScreen form input[name=csrf_key]').val(data.csrf_key);
+	$.getJSON('login.php', { g: 'csrf'}, function(data) {
+        $('#loginScreen form input[name=csrf_key]').val(data.csrf_key);
         $('#loginScreen form input[name=csrf_secret]').val(data.csrf_secret);
         
 		$submit.slideDown();
