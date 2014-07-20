@@ -1648,7 +1648,7 @@
 		"outputAbbreviatedPath": "\/img\/app-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/app.jpg": {
 		"fileType": 16384,
@@ -1747,7 +1747,7 @@
 		"outputAbbreviatedPath": "\/img\/dispositivos-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/dispositivos.jpg": {
 		"fileType": 16384,
@@ -1848,13 +1848,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/KMS.jpg": {
+	"\/img\/kms.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5521,
-		"inputAbbreviatedPath": "\/img\/KMS.jpg",
-		"outputAbbreviatedPath": "\/img\/KMS.jpg",
+		"inputAbbreviatedPath": "\/img\/kms.jpg",
+		"outputAbbreviatedPath": "\/img\/kms.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1890,7 +1890,7 @@
 		"outputAbbreviatedPath": "\/img\/menuInvocador.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/metas.jpg": {
 		"fileType": 16384,
@@ -1929,23 +1929,23 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2897,
+		"initialSize": 2586,
 		"inputAbbreviatedPath": "\/img\/pesotamanio.jpg",
 		"outputAbbreviatedPath": "\/img\/pesotamanio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/premios.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13619,
+		"initialSize": 12919,
 		"inputAbbreviatedPath": "\/img\/premios.jpg",
 		"outputAbbreviatedPath": "\/img\/premios.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/pulsera-min.jpg": {
 		"fileType": 16384,
@@ -1956,18 +1956,18 @@
 		"outputAbbreviatedPath": "\/img\/pulsera-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/pulsera.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24895,
+		"initialSize": 29187,
 		"inputAbbreviatedPath": "\/img\/pulsera.jpg",
 		"outputAbbreviatedPath": "\/img\/pulsera.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/pulseraFunc1.jpg": {
 		"fileType": 16384,
@@ -1984,12 +1984,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16467,
+		"initialSize": 16257,
 		"inputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
 		"outputAbbreviatedPath": "\/img\/pulseraIntro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/raul.jpg": {
 		"fileType": 16384,
@@ -2113,15 +2113,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/kms-builder.js",
-		"outputAbbreviatedPath": "\/js\/min\/kms-builder-ck.js",
+		"outputAbbreviatedPath": "\/js\/kms.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/kms.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/kms.js",
 		"outputAbbreviatedPath": "\/js\/min\/kms-ck.js",
@@ -2272,7 +2272,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yoshua Díaz",
+"lastSavedByUser": "Sinuhé Coronel",
 "manualImportLinks": {
 	},
 "projectAttributes": {
