@@ -53,7 +53,7 @@ if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
     // > Construir URL para genera nueva sesi�n en App.
     $uri =
         $_SERVER['KMS_API_LOGIN_ENDPOINT']
-        . '?username=' . urlencode($_POST['username'])
+        . '?email=' . urlencode($_POST['email'])
         . '&password=' . urlencode($_POST['password'])
         . '&nonce=' . urlencode($_POST['csrf_key'])
         . '&apikey=' . urlencode($_SERVER['KMS_API_KEY']);
