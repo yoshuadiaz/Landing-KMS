@@ -40,18 +40,18 @@ $(document).ready(function() {
 		LightSesionIn();
 	}
 	
-	$submit = $('#loginScreen form input[type=submit]')
+	var $submit = $('#loginScreen form input[type=submit]');
 	$submit.slideUp(0);
 	
 	$.get('login.php', { g: 'csrf'}).done(function(data) {
 		$('#loginScreen form').append(
 			$('<input />', {
-				'type' : 'hidden'
+				'type' : 'hidden',
 				'name' : 'csrf_key',
 				'value': data.csrf_key
 			}),
 			$('<input />', {
-				'type' : 'hidden'
+				'type' : 'hidden',
 				'name' : 'csrf_secret',
 				'value': data.csrf_secret
 			})
