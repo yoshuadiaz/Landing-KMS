@@ -45,17 +45,11 @@ $(document).ready(function() {
 	
 	$.get('login.php', { g: 'csrf'}, function(data) {
         console.log(data);
+        console.log(data.csrf_key);
+        console.log(data.csrf_secret
         
-		$('#loginScreen form').append(
-			$('<input />', {
-				'type' : 'hidden',
-				'name' : 'csrf_key'
-			}).val(data['csrf_key']),
-			$('<input />', {
-				'type' : 'hidden',
-				'name' : 'csrf_secret'
-			}).val(data['csrf_secret'])
-		);
+		$('#loginScreen form input[name=csrf_key]').val(data.csrf_key);
+        $('#loginScreen form input[name=csrf_secret]').val(data.csrf_secret);
         
 		$submit.slideDown();
 	});
