@@ -855,6 +855,11 @@ header nav ul li.Software:after {
   margin-left: 17.7083333333333%;
   color: #b3b3b3;
 }
+.lightbox .contenidoLight p.failed {
+  margin-top: 12px;
+  display: none;
+  color: #f00;
+}
 .lightbox .contenidoLight form {
   display: inline;
   float: left;
