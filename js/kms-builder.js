@@ -44,6 +44,8 @@ $(document).ready(function() {
 	$submit.slideUp(0);
 	
 	$.get('login.php', { g: 'csrf'}).done(function(data) {
+        console.log(data);
+        
 		$('#loginScreen form').append(
 			$('<input />', {
 				'type' : 'hidden',
