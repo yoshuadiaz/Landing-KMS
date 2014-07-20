@@ -66,7 +66,7 @@ if ( isset($_GET['g']) && $_GET['g'] == 'csrf' ) {
     }
     
     // > Validar respuesta de App.
-    $reponse = json_decode($raw_response);
+    $response = json_decode($raw_response);
     if ( $response == NULL || ! isset($response['k']) || ! isset($response['h']) ) {
         if ( isset($response['error']) ) {
             redirect_fail();
