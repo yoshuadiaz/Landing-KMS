@@ -2,15 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17625",
 "files": {
-	"\/app.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1570,15 +1561,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/comofunciona.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/comofunciona.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/comofunciona.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1593,15 +1575,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/jquery.fullPage.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/kms.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/kms.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1768,17 +1741,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/FondoApp.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 144332,
-		"inputAbbreviatedPath": "\/img\/FondoApp.jpg",
-		"outputAbbreviatedPath": "\/img\/FondoApp.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/googleplay.jpg": {
 		"fileType": 16384,
@@ -2099,57 +2061,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.kit",
-		"outputAbbreviatedPath": "\/index.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/kms-builder.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/kms-builder.js",
-		"outputAbbreviatedPath": "\/js\/min\/kms-builder-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/kms.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/kms.js",
-		"outputAbbreviatedPath": "\/js\/min\/kms-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/min\/kms-builder-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/kms-builder-ck.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/kms-builder-ck-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/min\/smooth-scroll-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2172,30 +2083,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/kit\/footer.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/kit\/footer.kit",
-		"outputAbbreviatedPath": "\/kit\/footer.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kit\/header.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/header.kit",
 		"outputAbbreviatedPath": "\/kit\/header.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pulsera.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pulsera.html",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2230,21 +2123,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/styles\/kms.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/styles\/kms.styl",
-		"outputAbbreviatedPath": "\/css\/kms.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
 	"\/styles\/vendors\/grid.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -2259,15 +2137,6 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
-		},
-	"\/team.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/team.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/team.kit": {
 		"fileType": 2048,

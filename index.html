@@ -33,7 +33,7 @@
 		<div class="section active home" id="home">
 			<div class="container">
 				<div class="container homeSlides">
-					<section id="bienvenida">
+					<section id="bienvenida" class="animated bounceIn">
 						<h2>KMS</h2>
 						<h3>¡MUEVE AL MUNDO!</h3>
 						<p>KMS te ayuda a contar la actividad física que realizas durante el día: caminar, correr, andar en bici… lo que quieras.</p>
@@ -45,7 +45,7 @@
 						</form>
 					</section>
 					<section id="imagenCelular">
-						<img src="img/HandwithiPhone5.png" width="100%">
+						<img src="img/HandwithiPhone5.png" width="100%" class="animated fadeInUp">
 					</section>
 				</div>
 			</div>
@@ -176,18 +176,18 @@
 	<p>KMS se dedica a motivar y ayudar a las personas a llevar una vida más sana, activa y con mayor calidad.</p>
 	<p>©2014 KMS Invent S.A.P.I. Todos los derechos reservados.</p>
 </small>
-<script>
-    smoothScroll.init();
-</script>
 
 <div id="loginScreen" class="lightbox">
 	<div class="contenidoLight">
 		<h2>INICIAR SESIÓN</h2>
 		<p>Bienvenido a KMS para continuar debes inciar sesión porfavor proporciona los datos a continuación</p>
-		<form method="post" action="http://app.kms.me/es-MX/Login">
-			<input type="email" placeholder="Correo electrónico">
-			<input type="password" placeholder="Contraseña">
-			<input type="submit">
+		<p class="failed">Usuario o contraseña incorrectos</p>
+		<form method="post" action="login.php?g=login">
+            <input name="csrf_key" type="hidden" value="" />
+            <input name="csrf_secret" type="hidden" value="" />
+			<input name="email" type="email" placeholder="Correo electrónico" />
+			<input name="password" type="password" placeholder="Contraseña" />
+			<input type="submit" value="Iniciar Sesión" />
 		</form>
 		<a href="#">No tengo cuenta en KMS</a>
 	</div>
