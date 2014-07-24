@@ -26,19 +26,6 @@ body:after {
   padding-top: 5em;
   box-sizing: border-box;
 }
-.legal {
-  text-align: center;
-  color: #5a5a5a;
-}
-.legalItem {
-  height: 400px;
-  overflow-y: auto;
-  background-color: #eee;
-  padding: 0 1em;
-  border-top: 1em solid #eee;
-  border-bottom: 1em solid #eee;
-  margin: 0 2em;
-}
 .btn {
   background-color: #e1e1e1;
   border-radius: 0.25em;
@@ -70,9 +57,11 @@ body:after {
 .home .homeSlides {
   max-height: 480px;
 }
-@media( max-width:730px) {
-  max-height: inherit;
-  padding-bottom: 2em;
+@media (max-width: 730px) {
+  .home .homeSlides {
+    max-height: inherit;
+    padding-bottom: 2em;
+  }
 }
 .home #imagenCelular {
   display: inline;
@@ -88,9 +77,11 @@ body:after {
   right: 0;
   width: 360px;
 }
-@media( max-width:730px) {
-  height: 0;
-  display: none;
+@media (max-width: 730px) {
+  .home #imagenCelular {
+    height: 0;
+    display: none;
+  }
 }
 .home #bienvenida {
   display: inline;
@@ -159,11 +150,13 @@ body:after {
   min-height: 450px;
   padding: 5em 0;
 }
-@media( max-width:730px) {
-  background-image: url("../img/dispositivos-min.jpg");
-  background-position: center top;
-  background-size: auto 300px;
-  min-height: auto;
+@media (max-width: 730px) {
+  .comofunciona {
+    background-image: url("../img/dispositivos-min.jpg");
+    background-position: center top;
+    background-size: auto 300px;
+    min-height: auto;
+  }
 }
 .comofunciona .informacion {
   display: inline;
@@ -180,10 +173,12 @@ body:after {
   clear: both;
   box-sizing: border-box;
 }
-@media( max-width:730px) {
-  text-align: center;
-  width: 100%;
-  margin-top: 280px;
+@media (max-width: 730px) {
+  .comofunciona .informacion {
+    text-align: center;
+    width: 100%;
+    margin-top: 280px;
+  }
 }
 .comofunciona .informacion h2 {
   color: #00c5db;
@@ -199,10 +194,12 @@ body:after {
   min-height: 450px;
   padding: 5em 0;
 }
-@media( max-width:730px) {
-  background-image: url("../img/pulsera-min.jpg");
-  background-position: center bottom;
-  background-size: 150px auto;
+@media (max-width: 730px) {
+  .pulsera {
+    background-image: url("../img/pulsera-min.jpg");
+    background-position: center bottom;
+    background-size: 150px auto;
+  }
 }
 .pulsera .informacion {
   max-width: 480px;
@@ -215,11 +212,13 @@ body:after {
   clear: both;
   box-sizing: border-box;
 }
-@media( max-width:730px) {
-  max-width: 100%;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 8em;
+@media (max-width: 730px) {
+  .pulsera .informacion {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8em;
+  }
 }
 .pulsera .informacion h2 {
   color: #a7d06a;
@@ -250,10 +249,12 @@ body:after {
   min-height: 450px;
   padding: 5em 0;
 }
-@media( max-width:730px) {
-  background-image: url("../img/app-min.jpg");
-  background-position: right bottom;
-  background-size: 500px auto;
+@media (max-width: 730px) {
+  .app {
+    background-image: url("../img/app-min.jpg");
+    background-position: right bottom;
+    background-size: 500px auto;
+  }
 }
 .app .btn {
   display: block !important;
@@ -273,10 +274,12 @@ body:after {
   padding: 1em;
   box-sizing: border-box;
 }
-@media( max-width:730px) {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 300px;
+@media (max-width: 730px) {
+  .app .informacion {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 300px;
+  }
 }
 .app .informacion a {
   display: inline;
@@ -438,16 +441,18 @@ footer > ul {
   padding-bottom: 1em;
   font-size: 0.8em;
 }
-@media( max-width:730px) {
-  display: inline;
-  float: left;
-  width: 47.9166666666667%;
-  margin: 0 1.0416666666667%;
-  *width: 47.89171006944449%;
-  *margin: 0 1.041124131944478%;
-  font-size: 1em;
-  padding: 0.5em;
-  box-sizing: border-box;
+@media (max-width: 730px) {
+  footer > ul {
+    display: inline;
+    float: left;
+    width: 47.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 47.89171006944449%;
+    *margin: 0 1.041124131944478%;
+    font-size: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
 }
 footer > ul:last-child {
   display: inline;
@@ -462,12 +467,14 @@ footer > ul:last-child {
   height: 180px;
   padding-left: 1em;
 }
-@media( max-width:730px) {
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
-  height: auto;
-  padding-bottom: 2em;
+@media (max-width: 730px) {
+  footer > ul:last-child {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 2em;
+  }
   footer > ul:last-child li {
     width: 100%;
     display: inline-block;
@@ -532,8 +539,10 @@ header nav .menuInvocador {
   width: 2.5em;
   display: none;
 }
-@media( max-width:705px) {
-  display: block;
+@media (max-width: 705px) {
+  header nav .menuInvocador {
+    display: block;
+  }
 }
 header nav ul {
   padding: 0;
@@ -834,11 +843,6 @@ header nav ul li.Software:after {
   *margin: 0 1.041124131944478%;
   margin-left: 17.7083333333333%;
   color: #b3b3b3;
-}
-.lightbox .contenidoLight p.failed {
-  margin-top: 12px;
-  display: none;
-  color: #f00;
 }
 .lightbox .contenidoLight form {
   display: inline;
@@ -1237,14 +1241,16 @@ header nav ul li.Software:after {
   display: inline-block;
   clear: both;
 }
-@media( max-width:600px) {
-  display: inline;
-  float: left;
-  width: 81.25%;
-  margin: 0 1.0416666666667%;
-  *width: 81.2076822916667%;
-  *margin: 0 1.041124131944478%;
-  margin-left: 9.375%;
+@media (max-width: 600px) {
+  .pulseraIntro p.manual {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+  }
 }
 .pulseraIntro img.manual {
   width: 397px;
@@ -1264,29 +1270,33 @@ header nav ul li.Software:after {
   margin-top: 1em;
   padding-bottom: 1em;
 }
-@media( max-width:700px) {
-  display: inline;
-  float: left;
-  width: 39.5833333333333%;
-  margin: 0 1.0416666666667%;
-  *width: 39.56271701388887%;
-  *margin: 0 1.041124131944478%;
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+@media (max-width: 700px) {
+  .pulseraIntro article.caracteristicas {
+    display: inline;
+    float: left;
+    width: 39.5833333333333%;
+    margin: 0 1.0416666666667%;
+    *width: 39.56271701388887%;
+    *margin: 0 1.041124131944478%;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
   .pulseraIntro article.caracteristicas:nth-child(2n+2) {
     clear: left;
   }
 }
-@media( max-width:500px) {
-  display: inline;
-  float: left;
-  width: 81.25%;
-  margin: 0 1.0416666666667%;
-  *width: 81.2076822916667%;
-  *margin: 0 1.041124131944478%;
-  margin-left: 9.375%;
-  display: inline-block;
+@media (max-width: 500px) {
+  .pulseraIntro article.caracteristicas {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+    display: inline-block;
+  }
 }
 .pulseraIntro article.caracteristicas figure {
   text-align: center;
