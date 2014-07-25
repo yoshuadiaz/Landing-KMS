@@ -1628,6 +1628,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/amigos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12243,
+		"inputAbbreviatedPath": "\/img\/amigos.png",
+		"outputAbbreviatedPath": "\/img\/amigos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/android.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1705,6 +1716,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/ciclista.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33581,
+		"inputAbbreviatedPath": "\/img\/ciclista.jpg",
+		"outputAbbreviatedPath": "\/img\/ciclista.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/descargarManual.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1760,6 +1782,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/facebookfoo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4555,
+		"inputAbbreviatedPath": "\/img\/facebookfoo.png",
+		"outputAbbreviatedPath": "\/img\/facebookfoo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/FondoApp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1791,7 +1824,7 @@
 		"outputAbbreviatedPath": "\/img\/graficadesempenio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/HandwithiPhone5.png": {
 		"fileType": 32768,
@@ -1903,6 +1936,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/metas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3955,
+		"inputAbbreviatedPath": "\/img\/metas.png",
+		"outputAbbreviatedPath": "\/img\/metas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mideIconos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1946,6 +1990,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/progreso.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7916,
+		"inputAbbreviatedPath": "\/img\/progreso.png",
+		"outputAbbreviatedPath": "\/img\/progreso.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/pulsera-min.jpg": {
 		"fileType": 16384,
@@ -2002,6 +2057,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/recompensas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6322,
+		"inputAbbreviatedPath": "\/img\/recompensas.png",
+		"outputAbbreviatedPath": "\/img\/recompensas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/requisitos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2035,6 +2101,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/sincronizar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7596,
+		"inputAbbreviatedPath": "\/img\/sincronizar.png",
+		"outputAbbreviatedPath": "\/img\/sincronizar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sinuhe.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2067,6 +2144,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/tipscomo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80753,
+		"inputAbbreviatedPath": "\/img\/tipscomo.png",
+		"outputAbbreviatedPath": "\/img\/tipscomo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/twitterfoo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3960,
+		"inputAbbreviatedPath": "\/img\/twitterfoo.png",
+		"outputAbbreviatedPath": "\/img\/twitterfoo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/victor.jpg": {
 		"fileType": 16384,
@@ -2187,6 +2286,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/login.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/preguntas.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/preguntas.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/preguntas.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/preguntas.kit",
+		"outputAbbreviatedPath": "\/preguntas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
