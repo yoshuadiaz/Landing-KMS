@@ -570,6 +570,37 @@ header
 	height 100vh
 	display none
 	text-align center
+	.downMac
+		column(3)
+		push(2)
+		margin-top 1em
+		@media (max-width:520px)
+			column(5)
+			margin-top 1em
+	.downWin
+		column(3)
+		push(2)
+		margin-top 1em
+		@media (max-width:520px)
+			column(5)
+			push(2)
+			margin-top 1em
+	#login
+		.logFacebook
+			column(4)
+			push(2)
+			margin-top .5em
+			margin-bottom .5em
+			display block
+			img
+				max-width 100%
+		.logTwitter
+			column(4)
+			margin-top .5em
+			margin-bottom .5em
+			display block
+			img
+				max-width 100%
 	&.activo
 		display block
 	.fondolight
