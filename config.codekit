@@ -1674,7 +1674,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 148732,
+		"initialSize": 160210,
 		"inputAbbreviatedPath": "\/img\/app.jpg",
 		"outputAbbreviatedPath": "\/img\/app.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1806,7 +1806,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 90804,
+		"initialSize": 147591,
 		"inputAbbreviatedPath": "\/img\/FondoApp.jpg",
 		"outputAbbreviatedPath": "\/img\/FondoApp.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2425,14 +2425,14 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "CTIN",
+"lastSavedByUser": "Yoshua Díaz",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Landing KMS",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ariel"
+	"iconImageName": "meme-facepalm"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
