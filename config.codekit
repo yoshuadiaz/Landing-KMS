@@ -1791,6 +1791,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/downMac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7432,
+		"inputAbbreviatedPath": "\/img\/downMac.jpg",
+		"outputAbbreviatedPath": "\/img\/downMac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/downWin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8483,
+		"inputAbbreviatedPath": "\/img\/downWin.jpg",
+		"outputAbbreviatedPath": "\/img\/downWin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/facebookfoo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1831,6 +1853,17 @@
 		"initialSize": 17811,
 		"inputAbbreviatedPath": "\/img\/graficadesempenio.jpg",
 		"outputAbbreviatedPath": "\/img\/graficadesempenio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Group.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8028,
+		"inputAbbreviatedPath": "\/img\/Group.png",
+		"outputAbbreviatedPath": "\/img\/Group.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1900,6 +1933,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/logFacebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7107,
+		"inputAbbreviatedPath": "\/img\/logFacebook.png",
+		"outputAbbreviatedPath": "\/img\/logFacebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logTwitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8028,
+		"inputAbbreviatedPath": "\/img\/logTwitter.png",
+		"outputAbbreviatedPath": "\/img\/logTwitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/manualUsuario.jpg": {
 		"fileType": 16384,
@@ -2432,7 +2487,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Landing KMS",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-facepalm"
+	"iconImageName": "meme-ariel"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
