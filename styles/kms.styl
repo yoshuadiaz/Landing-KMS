@@ -55,6 +55,34 @@ $KMS-Blanco = #f2f2f2
 	&:hover
 		background-color $KMS-Verde
 		color white
+#sesionAcabada
+	background-image url("../img/home.jpg")
+	background-position cover
+	overflow hidden
+	height 50px
+	min-height 450px
+	@media (max-width: 730px)
+		min-height inherit
+		overflow hidden
+		height auto
+	input::-webkit-input-placeholder
+		color white
+	figure
+		column(4)
+		push(2)
+		margin-top 3em
+		@media (max-width: 730px)
+			column(4)
+			push(4)
+			text-align center
+			margin-top 2em
+	#bienvenida
+		column(4)
+		margin-top 3em
+		@media (max-width: 730px)
+			column(10)
+			push(1)
+
 .home
 	background $KMS-AzulOscuro url("../img/home.jpg")
 	background-size cover
@@ -94,19 +122,21 @@ $KMS-Blanco = #f2f2f2
 		h3
 			margin 0
 		form
-			input[type="text"]
-				column(12)
-				background-color transparent
-				border 1px solid white
-				color white
-				padding .5em
-				box-sizing border-box
-			input[type="submit"]
-				column(12)
-				margin-top .5em
-				background-color $KMS-Aqua
-				border 0px solid
-				padding .5em
+			input
+				&[type="text"],&[type="password"]
+					column(12)
+					background-color transparent
+					border 1px solid white
+					color white
+					padding .5em
+					box-sizing border-box
+					margin-bottom .5em
+				&[type="submit"]
+					column(12)
+					margin-top .5em
+					background-color $KMS-Aqua
+					border 0px solid
+					padding .5em
 .comofunciona
 	background-image url("../img/dispositivos.jpg")
 	background-size contain
@@ -560,7 +590,73 @@ header
 			background-color $KMS-Aqua
 			top 0
 			right 0
-
+#registro
+	h2
+		color $KMS-Verde
+		font-weight normal
+	p
+		color $KMS-Aqua
+		margin 1em 0
+		display inline-block
+		clear both
+		width 100%
+	.izquierda
+		column(6)
+		padding-bottom 2em
+		@media (max-width:730px)
+			column(12)
+	.derecha
+		column(6)
+		padding-bottom 2em
+		@media (max-width:730px)
+			column(12)
+	input
+		&[type="text"]
+			border 0px solid
+			border-bottom 1px solid $KMS-Gris
+			column(12)
+			padding .25em
+			box-sizing border-box
+			font-size .85em
+			display block
+			clear both
+		&[type="submit"]
+			max-width 300px
+			width 100%
+			display block
+			clear both
+			margin 0.5em auto
+			background-color #00ccc3
+			border 0px solid
+			padding 0.5em
+			color white
+	small
+		column(6)
+		push(3)
+		text-align center
+		a
+			color $KMS-Verde
+	form div
+		column(12)
+	select
+		display inline-block
+		&.dia
+			column(3)
+		&.mes
+			column(6)
+		&.anio
+			column(3)
+		&.peso
+			column(6)
+		&.estatura
+			column(6)
+		&.pais,&.estado
+			column(6)
+			clear both
+			display block
+			margin-bottom .5em
+	span
+		margin 0 1em
 .lightbox
 	position fixed
 	top 0
@@ -599,6 +695,10 @@ header
 			margin-top .5em
 			margin-bottom .5em
 			display block
+			@media (max-width:730px)
+				column(8)
+				push(2)
+				margin-top .5em
 			img
 				max-width 100%
 		.logTwitter
@@ -606,6 +706,10 @@ header
 			margin-top .5em
 			margin-bottom .5em
 			display block
+			@media (max-width:730px)
+				column(8)
+				push(2)
+				margin-top .5em
 			img
 				max-width 100%
 	&.activo
@@ -652,19 +756,19 @@ header
 			clear both
 			overflow hidden
 			box-sizing border-box
-			input
-				width 100%
-				padding 0.25em
-				margin-top .5em
-				margin-bottom .5em
-				box-sizing border-box
-				&[type="submit"]
-					display block
-					margin-top 0.5em
-					background-color #00ccc3
-					border 0px solid
-					padding 0.5em
-					color white
+		input
+			width 100%
+			padding 0.25em
+			margin-top .5em
+			margin-bottom .5em
+			box-sizing border-box
+			&[type="submit"]
+				display block
+				margin-top 0.5em
+				background-color #00ccc3
+				border 0px solid
+				padding 0.5em
+				color white
 #appPortada
 	background-image url("../img/FondoApp.jpg")
 	background-position center center

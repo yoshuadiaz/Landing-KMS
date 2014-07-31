@@ -68,6 +68,66 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-color: #a7d06a;
   color: #fff;
 }
+#sesionAcabada {
+  background-image: url("../img/home.jpg");
+  background-position: cover;
+  overflow: hidden;
+  height: 50px;
+  min-height: 450px;
+}
+@media (max-width: 730px) {
+  #sesionAcabada {
+    min-height: inherit;
+    overflow: hidden;
+    height: auto;
+  }
+}
+#sesionAcabada input::-webkit-input-placeholder {
+  color: #fff;
+}
+#sesionAcabada figure {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 17.7083333333333%;
+  margin-top: 3em;
+}
+@media (max-width: 730px) {
+  #sesionAcabada figure {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.0416666666667%;
+    *width: 31.233723958333343%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 34.375%;
+    text-align: center;
+    margin-top: 2em;
+  }
+}
+#sesionAcabada #bienvenida {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  margin-top: 3em;
+}
+@media (max-width: 730px) {
+  #sesionAcabada #bienvenida {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.0416666666667%;
+    *width: 81.2076822916667%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 9.375%;
+  }
+}
 .home {
   background: #147caf url("../img/home.jpg");
   -webkit-background-size: cover cover;
@@ -145,7 +205,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .home #bienvenida h3 {
   margin: 0;
 }
-.home #bienvenida form input[type="text"] {
+.home #bienvenida form input[type="text"],
+.home #bienvenida form input[type="password"] {
   display: inline;
   float: left;
   width: 97.9166666666667%;
@@ -159,6 +220,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  margin-bottom: 0.5em;
 }
 .home #bienvenida form input[type="submit"] {
   display: inline;
@@ -927,6 +989,162 @@ header nav ul li.Software:after {
   top: 0;
   right: 0;
 }
+#registro h2 {
+  color: #a7d06a;
+  font-weight: normal;
+}
+#registro p {
+  color: #00ccc3;
+  margin: 1em 0;
+  display: inline-block;
+  clear: both;
+  width: 100%;
+}
+#registro .izquierda {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  padding-bottom: 2em;
+}
+@media (max-width: 730px) {
+  #registro .izquierda {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+#registro .derecha {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  padding-bottom: 2em;
+}
+@media (max-width: 730px) {
+  #registro .derecha {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+#registro input[type="text"] {
+  border: 0px solid;
+  border-bottom: 1px solid #b3b3b3;
+  display: inline;
+  float: left;
+  width: 97.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 97.86566840277784%;
+  *margin: 0 1.041124131944478%;
+  padding: 0.25em;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.85em;
+  display: block;
+  clear: both;
+}
+#registro input[type="submit"] {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  clear: both;
+  margin: 0.5em auto;
+  background-color: #00ccc3;
+  border: 0px solid;
+  padding: 0.5em;
+  color: #fff;
+}
+#registro small {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 26.041666666666703%;
+  text-align: center;
+}
+#registro small a {
+  color: #a7d06a;
+}
+#registro form div {
+  display: inline;
+  float: left;
+  width: 97.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 97.86566840277784%;
+  *margin: 0 1.041124131944478%;
+}
+#registro select {
+  display: inline-block;
+}
+#registro select.dia {
+  display: inline;
+  float: left;
+  width: 22.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 22.904730902777818%;
+  *margin: 0 1.041124131944478%;
+}
+#registro select.mes {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+}
+#registro select.anio {
+  display: inline;
+  float: left;
+  width: 22.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 22.904730902777818%;
+  *margin: 0 1.041124131944478%;
+}
+#registro select.peso {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+}
+#registro select.estatura {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+}
+#registro select.pais,
+#registro select.estado {
+  display: inline;
+  float: left;
+  width: 47.9166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 47.89171006944449%;
+  *margin: 0 1.041124131944478%;
+  clear: both;
+  display: block;
+  margin-bottom: 0.5em;
+}
+#registro span {
+  margin: 0 1em;
+}
 .lightbox {
   position: fixed;
   top: 0;
@@ -1004,6 +1222,18 @@ header nav ul li.Software:after {
   margin-bottom: 0.5em;
   display: block;
 }
+@media (max-width: 730px) {
+  .lightbox #loginContent .logFacebook {
+    display: inline;
+    float: left;
+    width: 64.5833333333333%;
+    margin: 0 1.0416666666667%;
+    *width: 64.54969618055554%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 17.7083333333333%;
+    margin-top: 0.5em;
+  }
+}
 .lightbox #loginContent .logFacebook img {
   max-width: 100%;
 }
@@ -1017,6 +1247,18 @@ header nav ul li.Software:after {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   display: block;
+}
+@media (max-width: 730px) {
+  .lightbox #loginContent .logTwitter {
+    display: inline;
+    float: left;
+    width: 64.5833333333333%;
+    margin: 0 1.0416666666667%;
+    *width: 64.54969618055554%;
+    *margin: 0 1.041124131944478%;
+    margin-left: 17.7083333333333%;
+    margin-top: 0.5em;
+  }
 }
 .lightbox #loginContent .logTwitter img {
   max-width: 100%;
@@ -1090,7 +1332,7 @@ header nav ul li.Software:after {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.lightbox .contenidoLight form input {
+.lightbox .contenidoLight input {
   width: 100%;
   padding: 0.25em;
   margin-top: 0.5em;
@@ -1099,7 +1341,7 @@ header nav ul li.Software:after {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.lightbox .contenidoLight form input[type="submit"] {
+.lightbox .contenidoLight input[type="submit"] {
   display: block;
   margin-top: 0.5em;
   background-color: #00ccc3;
