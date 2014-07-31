@@ -3,6 +3,15 @@ function menuInvocador(){
 }
 
 function LightSesionIn(){
+	$("#loginContent").addClass("activo");
+	$("#loginScreen .contenidoLight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		console.log("Animacion terminada entrar");
+	});
+	$("#loginScreen").addClass("activo");
+	$("#loginScreen .contenidoLight").addClass("animated bounceIn");
+}
+function SoftwareIn(){
+	$("#softwareContent").addClass("activo");
 	$("#loginScreen .contenidoLight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 		console.log("Animacion terminada entrar");
 	});
@@ -10,19 +19,21 @@ function LightSesionIn(){
 	$("#loginScreen .contenidoLight").addClass("animated bounceIn");
 }
 
-function LightSesionOut(){
+function cerrarLight(){
 	$("#loginScreen .contenidoLight").removeClass("bounceIn");
 	$("#loginScreen .contenidoLight").addClass("fadeOutDown");
 	$("#loginScreen .contenidoLight").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 		console.log("Animacion terminada para salir");
 		$("#loginScreen").removeClass("activo");
 		$("#loginScreen .contenidoLight").removeClass("animated fadeOutDown");
+		$("#loginContent, #softwareContent").removeClass("activo");
 	});
 }
 
 $(document).ready(function() {
 	$("header .IniciarSesion").click(LightSesionIn);
-	$("#loginScreen .fondolight").click(LightSesionOut);
+	$("header .Software").click(SoftwareIn);
+	$("#loginScreen .fondolight").click(cerrarLight);
 	$(".menuInvocador").click(menuInvocador);
 	//$('#fullpage').fullpage({
 	//	menu: "#myMenu",

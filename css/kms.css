@@ -937,7 +937,13 @@ header nav ul li.Software:after {
   display: none;
   text-align: center;
 }
-.lightbox .downMac {
+.lightbox #softwareContent {
+  display: none;
+}
+.lightbox #softwareContent.activo {
+  display: block;
+}
+.lightbox #softwareContent .downMac {
   display: inline;
   float: left;
   width: 22.9166666666667%;
@@ -948,7 +954,7 @@ header nav ul li.Software:after {
   margin-top: 1em;
 }
 @media (max-width: 520px) {
-  .lightbox .downMac {
+  .lightbox #softwareContent .downMac {
     display: inline;
     float: left;
     width: 39.5833333333333%;
@@ -958,7 +964,7 @@ header nav ul li.Software:after {
     margin-top: 1em;
   }
 }
-.lightbox .downWin {
+.lightbox #softwareContent .downWin {
   display: inline;
   float: left;
   width: 22.9166666666667%;
@@ -969,7 +975,7 @@ header nav ul li.Software:after {
   margin-top: 1em;
 }
 @media (max-width: 520px) {
-  .lightbox .downWin {
+  .lightbox #softwareContent .downWin {
     display: inline;
     float: left;
     width: 39.5833333333333%;
@@ -980,7 +986,13 @@ header nav ul li.Software:after {
     margin-top: 1em;
   }
 }
-.lightbox #login .logFacebook {
+.lightbox #loginContent {
+  display: none;
+}
+.lightbox #loginContent.activo {
+  display: block;
+}
+.lightbox #loginContent .logFacebook {
   display: inline;
   float: left;
   width: 31.25%;
@@ -992,10 +1004,10 @@ header nav ul li.Software:after {
   margin-bottom: 0.5em;
   display: block;
 }
-.lightbox #login .logFacebook img {
+.lightbox #loginContent .logFacebook img {
   max-width: 100%;
 }
-.lightbox #login .logTwitter {
+.lightbox #loginContent .logTwitter {
   display: inline;
   float: left;
   width: 31.25%;
@@ -1006,7 +1018,7 @@ header nav ul li.Software:after {
   margin-bottom: 0.5em;
   display: block;
 }
-.lightbox #login .logTwitter img {
+.lightbox #loginContent .logTwitter img {
   max-width: 100%;
 }
 .lightbox.activo {
