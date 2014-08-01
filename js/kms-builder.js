@@ -19,6 +19,33 @@ function SoftwareIn(){
 	$("#loginScreen .contenidoLight").addClass("animated bounceIn");
 }
 
+function pulseraCarrusel(){
+	$(".pulseraActivador").click(function(){
+		activadorCarrusel("pulsera")
+	});
+	$(".innerActivador").click(function(){
+		activadorCarrusel("inner")
+	});
+	$(".cargadorActivador").click(function(){
+		activadorCarrusel("cargador")
+	});
+}
+
+function activadorCarrusel(seleccionado){
+	console.log("se selecciono:"+seleccionado)
+	$(".izquierda .activo, .derecha .activo").removeClass("activo");
+	if(seleccionado == "pulsera"){
+		$(".pulseraActivador, .pulseraPlasticaDetail").addClass("activo");
+	}
+	if(seleccionado == "inner"){
+		$(".innerActivador, .innerDetail").addClass("activo");
+	}
+	if(seleccionado == "cargador"){
+		$(".cargadorActivador, .cargadorDetail").addClass("activo");
+	}
+	
+}
+
 function cerrarLight(){
 	$("#loginScreen .contenidoLight").removeClass("bounceIn");
 	$("#loginScreen .contenidoLight").addClass("fadeOutDown");

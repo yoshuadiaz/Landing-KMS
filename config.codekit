@@ -1716,6 +1716,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/cargador.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52393,
+		"inputAbbreviatedPath": "\/img\/cargador.png",
+		"outputAbbreviatedPath": "\/img\/cargador.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cargadorDetail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84840,
+		"inputAbbreviatedPath": "\/img\/cargadorDetail.png",
+		"outputAbbreviatedPath": "\/img\/cargadorDetail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ciclista.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1826,6 +1848,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/flecha.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 766,
+		"inputAbbreviatedPath": "\/img\/flecha.png",
+		"outputAbbreviatedPath": "\/img\/flecha.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/FondoApp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1902,6 +1935,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/innerCore.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19834,
+		"inputAbbreviatedPath": "\/img\/innerCore.png",
+		"outputAbbreviatedPath": "\/img\/innerCore.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/innerCoreDetail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98495,
+		"inputAbbreviatedPath": "\/img\/innerCoreDetail.png",
+		"outputAbbreviatedPath": "\/img\/innerCoreDetail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/innerDetailCaract.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47130,
+		"inputAbbreviatedPath": "\/img\/innerDetailCaract.png",
+		"outputAbbreviatedPath": "\/img\/innerDetailCaract.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/karen.jpg": {
 		"fileType": 16384,
@@ -2090,6 +2156,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/pulseraDetail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95126,
+		"inputAbbreviatedPath": "\/img\/pulseraDetail.png",
+		"outputAbbreviatedPath": "\/img\/pulseraDetail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pulseraFunc1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2111,6 +2188,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/pulseraPlastica.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50082,
+		"inputAbbreviatedPath": "\/img\/pulseraPlastica.png",
+		"outputAbbreviatedPath": "\/img\/pulseraPlastica.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/raul.jpg": {
 		"fileType": 16384,
@@ -2529,7 +2617,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yoshua Díaz",
+"lastSavedByUser": "Raul Soto",
 "manualImportLinks": {
 	},
 "projectAttributes": {
