@@ -43,7 +43,7 @@ function activadorCarrusel(seleccionado){
 	if(seleccionado == "cargador"){
 		$(".cargadorActivador, .cargadorDetail").addClass("activo");
 	}
-	
+
 }
 
 function cerrarLight(){
@@ -70,21 +70,23 @@ $(document).ready(function() {
 	//	verticalCentered: false,
 	//	fixedElements: "#imagenCelular"
 	//});
-    
-    if ( location.hash == "#loginfailed" ) {
+
+  if ( location.hash == "#loginfailed" ) {
 		$('#loginScreen .failed').fadeIn();
-        LightSesionIn();
+    LightSesionIn();
 	} else if ( location.hash == "#login" ) {
 		LightSesionIn();
+	} else if ( location.hash == "#software" ) {
+	  SoftwareIn();
 	}
-	
+
 	var $submit = $('#loginScreen form input[type=submit]');
 	$submit.slideUp(0);
-	
+
 	$.getJSON('login.php', { g: 'csrf'}, function(data) {
         $('#loginScreen form input[name=csrf_key]').val(data.csrf_key);
         $('#loginScreen form input[name=csrf_secret]').val(data.csrf_secret);
-        
+
 		$submit.slideDown();
 	});
 });
