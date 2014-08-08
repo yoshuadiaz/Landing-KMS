@@ -1820,3 +1820,119 @@ header nav ul li.Software:after {
 .pulseraIntro article.caracteristicas p:last-child {
   border-bottom: 0px solid;
 }
+#carruselPulseras {
+  margin: 4em 0;
+  overflow: hidden;
+  display: block;
+}
+#carruselPulseras .izquierda {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666667%;
+  *width: 31.233723958333343%;
+  *margin: 0 1.041124131944478%;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  float: none;
+}
+@media (max-width: 705px) {
+  #carruselPulseras .izquierda {
+    display: none;
+  }
+}
+#carruselPulseras .izquierda figure {
+  height: 110px;
+  background-color: #b3b3b3;
+  -webkit-background-size: cover cover;
+          background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+  cursor: pointer;
+  position: relative;
+}
+#carruselPulseras .izquierda figure:hover {
+  background-color: #d1d1d1;
+}
+#carruselPulseras .izquierda figure.activo {
+  background-color: #00ccc3;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#carruselPulseras .izquierda figure.activo:after {
+  content: url("../img/flecha.png");
+  display: block;
+  position: absolute;
+  right: -1.25em;
+  top: 35px;
+}
+#carruselPulseras .derecha {
+  display: inline;
+  float: left;
+  width: 60.4166666666667%;
+  margin: 0 1.0416666666667%;
+  *width: 60.38519965277783%;
+  *margin: 0 1.041124131944478%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  float: none;
+}
+@media (max-width: 705px) {
+  #carruselPulseras .derecha {
+    display: inline;
+    float: left;
+    width: 97.9166666666667%;
+    margin: 0 1.0416666666667%;
+    *width: 97.86566840277784%;
+    *margin: 0 1.041124131944478%;
+  }
+}
+#carruselPulseras .derecha > div {
+  display: none;
+}
+@media (max-width: 705px) {
+  #carruselPulseras .derecha > div {
+    display: block;
+    margin: 3em auto;
+    overflow: hidden;
+  }
+}
+#carruselPulseras .derecha > div.activo {
+  display: block;
+}
+#carruselPulseras .derecha > div.pulseraPlasticaDetail img {
+  max-width: 200px;
+}
+#carruselPulseras .derecha > div.cargadorDetail img {
+  max-width: 250px;
+}
+#carruselPulseras .derecha p {
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.0416666666667%;
+  *width: 81.2076822916667%;
+  *margin: 0 1.041124131944478%;
+  margin-left: 9.375%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+}
+#carruselPulseras .derecha img {
+  max-width: 350px;
+}
+#carruselPulseras .derecha .comprar {
+  background-color: #ff6168;
+  display: block;
+  color: #fff;
+  width: 100px;
+  padding: 0.25em 0;
+  text-decoration: none;
+  margin: 1em auto;
+}

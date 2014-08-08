@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +27,8 @@
 				<img src="img/menuInvocador.jpg">
 			</span>
 		</nav>
-	</header>	<div id="fullpage">
+	</header>
+	<div id="fullpage">
 
 		<div class="section active home" id="sesionAcabada">
 			<div class="container">
@@ -106,20 +108,24 @@
 		<div id="loginContent">
 			<h2>INCIAR SESIÓN</h2>
 			<p>Bienvenido a KMS para continuar debes inciar sesión porfavor proporciona los datos a continuación</p>
-			<form action="">
+			<form method="post" action="login.php?g=login">
+				<input name="csrf_key" type="hidden" value="" />
+				<input name="csrf_secret" type="hidden" value="" />
 				<input name="email" type="email" placeholder="Correo electrónico" />
 				<input name="password" type="password" placeholder="Contraseña" />
 				<input type="submit" value="Iniciar Sesión" />
 			</form>
+			<!--
 			<p>o si lo prefieres inicia con un solo click</p>
 			<a href="" class="logFacebook"><img src="img/logFacebook.png" alt=""></a>
 			<a href="" class="logTwitter"><img src="img/logTwitter.png" alt=""></a>
-			<p>Si aún no estás registrado dirígete a la sección “Comenzar” donde encontraras el software que te permitirá crear una cuenta KMS.</p> 
+			<p>Si aún no estás registrado dirígete a la sección “Comenzar” donde encontraras el software que te permitirá crear una cuenta KMS.</p>
+			-->
 		</div>
-		
+
 		<div id="softwareContent">
 			<h2>¡¡Comencemos ahora mismo!!</h2>
-			<p>Ahora que tienes tu pulsera kms debés decargar el software de escritorio para configurarla. Selecciona tu sistema operativo </p> 
+			<p>Ahora que tienes tu pulsera kms debés decargar el software de escritorio para configurarla. Selecciona tu sistema operativo </p>
 			<div class="downMac">
 				<img src="img/downMac.jpg" alt="">
 			</div>

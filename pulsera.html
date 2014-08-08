@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +27,8 @@
 				<img src="img/menuInvocador.jpg">
 			</span>
 		</nav>
-	</header><div class="section" id="pulseraIntro">
+	</header>
+<div class="section" id="pulseraIntro">
 	<div class="container">
 		<div class="info animated fadeInDown">
 			<h2>Pulsera KMS</h2>
@@ -89,8 +91,34 @@
 			<p>Mac® OS 10.5</p>
 		</article>
 		<hr>
-
+		<article id="carruselPulseras">
+			<div class="izquierda">
+				<figure class="pulseraActivador"style="background-image:url('img/pulseraPlastica.png');">
+				</figure>
+				<figure class="innerActivador activo"style="background-image:url('img/innerCore.png');"></figure>
+				<figure class="cargadorActivador"style="background-image:url('img/cargador.png');"></figure>
+			</div>
+			<div class="derecha">
+				<div class="pulseraPlasticaDetail">
+					<img src="img/pulseraDetail.png" alt="">
+					<p>Pulsera accesoria para que puedas personalizar tu KMS. -Inner Core  no incluido.</p>
+					<a href="" class="comprar">Comprar</a>
+				</div>
+				<div class="innerDetail activo">
+					<img src="img/innerCoreDetail.png" alt="">
+					<p>Monitoriza tu sueño y te despierta utilizando una alarma silenciosa. Se sincroniza de manera inalámbrica con ordenadores y smartphones compatibles. A prueba de transpiración, lluvia y salpicaduras.</p>
+					<img src="img/innerDetailCaract.png" alt="">
+					<a href="" class="comprar">Comprar</a>
+				</div>
+				<div class="cargadorDetail">
+					<img src="img/cargadorDetail.png" alt="">
+					<p>Se conecta al puerto USB para recargar el monitor KMs™.</p>
+					<a href="" class="comprar">Comprar</a>
+				</div>
+			</div>
+		</article>
 		<hr>
+		<a name="manual"></a>
 		<h2>Manual de Usuario KMS</h2>
 		<img src="img/manualUsuario.jpg" class="manual">
 		<p class="manual">Ponemos a tu disposición el manual de uso de la pulsera KMS en él encontrarás toda la información para activar y sacra el máximo provecho de todoas sus funcionalidades.</p>
@@ -98,7 +126,10 @@
 			<img src="img/descargarManual.jpg" width="283" alt="Descargar Manual">
 		</a>
 	</div>
-	
+
+	<script>
+		$(document).ready(pulseraCarrusel());
+	</script>
 
 </div>
 
@@ -160,20 +191,24 @@
 		<div id="loginContent">
 			<h2>INCIAR SESIÓN</h2>
 			<p>Bienvenido a KMS para continuar debes inciar sesión porfavor proporciona los datos a continuación</p>
-			<form action="">
+			<form method="post" action="login.php?g=login">
+				<input name="csrf_key" type="hidden" value="" />
+				<input name="csrf_secret" type="hidden" value="" />
 				<input name="email" type="email" placeholder="Correo electrónico" />
 				<input name="password" type="password" placeholder="Contraseña" />
 				<input type="submit" value="Iniciar Sesión" />
 			</form>
+			<!--
 			<p>o si lo prefieres inicia con un solo click</p>
 			<a href="" class="logFacebook"><img src="img/logFacebook.png" alt=""></a>
 			<a href="" class="logTwitter"><img src="img/logTwitter.png" alt=""></a>
-			<p>Si aún no estás registrado dirígete a la sección “Comenzar” donde encontraras el software que te permitirá crear una cuenta KMS.</p> 
+			<p>Si aún no estás registrado dirígete a la sección “Comenzar” donde encontraras el software que te permitirá crear una cuenta KMS.</p>
+			-->
 		</div>
-		
+
 		<div id="softwareContent">
 			<h2>¡¡Comencemos ahora mismo!!</h2>
-			<p>Ahora que tienes tu pulsera kms debés decargar el software de escritorio para configurarla. Selecciona tu sistema operativo </p> 
+			<p>Ahora que tienes tu pulsera kms debés decargar el software de escritorio para configurarla. Selecciona tu sistema operativo </p>
 			<div class="downMac">
 				<img src="img/downMac.jpg" alt="">
 			</div>
@@ -198,3 +233,4 @@
 </div>
 </body>
 </html>
+
