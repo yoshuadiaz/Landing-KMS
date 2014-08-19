@@ -10,7 +10,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script src="js/kms.js"></script>
 </head>
-<body class="blanco">
+<body class="index">
 	<header>
 		<nav class="container">
 			<h1><a href="index.html"><img src="img/kms.jpg" alt="" width="60"></a></h1>
@@ -26,111 +26,28 @@
 				<img src="img/menuInvocador.jpg">
 			</span>
 		</nav>
-	</header><div class="section" id="pulseraIntro">
-	<div class="container">
-		<div class="info animated fadeInDown">
-			<h2>Pulsera KMS</h2>
-			<p>Un dispositivo diseñado para acompañarte constantemente. Durante el día monitoriza tus distancia recorrida en kilómetros, y las calorías quemadas. Por la noche monitoriza tu ciclo de sueño y por la mañana te despierta silenciosamente.Se sincroniza vía USB o bluetooth con la aplicación KMS. El motivante perfecto para activarte y mover al mundo. </p>
+	</header>	<div id="fullpage">
+
+		<div class="section active home" id="sesionAcabada">
+			<div class="container">
+				<div class="container">
+					<figure>
+						<img src="img/ciclista.png" alt="">
+					</figure>
+					<section id="bienvenida" class="animated bounceIn">
+						<p>Bienvenido a KMS para continuar debes inciar sesión porfavor proporciona los datos a continuación</p>
+
+						<form action="#">
+							<input type="text" placeholder="Correo electrónico">
+							<input type="password" placeholder="Contraseña">
+							<input type="submit" value="Iniciar sesión">
+						</form>
+					</section>
+				</div>
+			</div>
 		</div>
-		<figure class="animated bounceIn">
-			<img src="img/pulseraIntro.jpg" alt="">
-		</figure>
+
 	</div>
-</div>
-
-
-<div class="section pulseraIntro">
-	<div class="container">
-		<h2>Características del producto</h2>
-		<article class="caracteristicas">
-			<figure>
-				<img src="img/pesotamanio.jpg" alt="">
-			</figure>
-			<h3>Peso y Tamaño</h3>
-			<p>Peso: 20 gramos</p>
-			<p>Tamaño: <br>largo:240mm <br>Ancho:18mm <br>Alto:12mm</p>
-		</article>
-		<article class="caracteristicas">
-			<figure>
-				<img src="img/sincronizacion.jpg" alt="">
-			</figure>
-			<h3>Sincronización</h3>
-			<p>Vía bluetooth 4.0. iOS y Android</p>
-			<p>Por conexión USB.</p>
-			<p>Hasta 7 días de memoría interna</p>
-		</article>
-		<article class="caracteristicas">
-			<figure>
-				<img src="img/monitoreo.jpg" alt="">
-			</figure>
-			<h3>Monitoreo</h3>
-			<p>Distancia recorrida</p>
-			<p>Calorías quemadas</p>
-			<p>Monitoreo del sueño</p>
-			<p>Alarma inteligente</p>
-		</article>
-		<article class="caracteristicas">
-			<figure>
-				<img src="img/bateria.jpg" alt="">
-			</figure>
-			<h3>Batería</h3>
-			<p>Batería recargable</p>
-			<p>Capacidad de la Batería: 60mAh.</p>
-			<p>Duración 5 a 7 días con uso continuo.</p>
-			<p>Hasta10 días con uso moderado.</p>
-		</article>
-		<article class="caracteristicas">
-			<figure>
-				<img src="img/requisitos.jpg" alt="">
-			</figure>
-			<h3>Requisitos mac/pc</h3>
-			<p>Windows ® XP &</p>
-			<p>W ®8</p>
-			<p>Mac® OS 10.5</p>
-		</article>
-		<hr>
-		<article id="carruselPulseras">
-			<div class="izquierda">
-				<figure class="pulseraActivador"style="background-image:url('img/pulseraPlastica.png');">
-				</figure>
-				<figure class="innerActivador activo"style="background-image:url('img/innerCore.png');"></figure>
-				<figure class="cargadorActivador"style="background-image:url('img/cargador.png');"></figure>
-			</div>
-			<div class="derecha">
-				<div class="pulseraPlasticaDetail">
-					<img src="img/pulseraDetail.png" alt="">
-					<p>Pulsera accesoria para que puedas personalizar tu KMS. -Inner Core  no incluido.</p>
-					<a href="" class="comprar">Comprar</a>
-				</div>
-				<div class="innerDetail activo">
-					<img src="img/innerCoreDetail.png" alt="">
-					<p>Monitoriza tu sueño y te despierta utilizando una alarma silenciosa. Se sincroniza de manera inalámbrica con ordenadores y smartphones compatibles. A prueba de transpiración, lluvia y salpicaduras.</p>
-					<img src="img/innerDetailCaract.png" alt="">
-					<a href="" class="comprar">Comprar</a>
-				</div>
-				<div class="cargadorDetail">
-					<img src="img/cargadorDetail.png" alt="">
-					<p>Se conecta al puerto USB para recargar el monitor KMs™.</p>
-					<a href="" class="comprar">Comprar</a>
-				</div>
-			</div>
-		</article>
-		<hr>
-		<a name="manual"></a>
-		<h2>Manual de Usuario KMS</h2>
-		<img src="img/manualUsuario.jpg" class="manual">
-		<p class="manual">Ponemos a tu disposición el manual de uso de la pulsera KMS en él encontrarás toda la información para activar y sacra el máximo provecho de todoas sus funcionalidades.</p>
-		<a href="#" class="manual">
-			<img src="img/descargarManual.jpg" width="283" alt="Descargar Manual">
-		</a>
-	</div>
-
-	<script>
-		$(document).ready(pulseraCarrusel());
-	</script>
-
-</div>
-
 <footer class="container">
 	<ul>
 		<h3>¿Cómo funciona?</h3>

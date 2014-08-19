@@ -29,6 +29,18 @@ $KMS-Blanco = #f2f2f2
 .section
 	padding-top 5em
 	box-sizing border-box
+.legal
+	text-align center
+	color darken($KMS-Gris,50%)
+.legalItem
+	height 400px
+	overflow-y auto
+	background-color #eee
+	padding 0 1em
+	border-top 1em solid #eee
+	border-bottom 1em solid #eee
+	margin 0 2em
+
 .btn
 	background-color lighten($KMS-Gris, 60%)
 	border-radius .25em
@@ -43,6 +55,34 @@ $KMS-Blanco = #f2f2f2
 	&:hover
 		background-color $KMS-Verde
 		color white
+#sesionAcabada
+	background-image url("../img/home.jpg")
+	background-position cover
+	overflow hidden
+	height 50px
+	min-height 450px
+	@media (max-width: 730px)
+		min-height inherit
+		overflow hidden
+		height auto
+	input::-webkit-input-placeholder
+		color white
+	figure
+		column(4)
+		push(2)
+		margin-top 3em
+		@media (max-width: 730px)
+			column(4)
+			push(4)
+			text-align center
+			margin-top 2em
+	#bienvenida
+		column(4)
+		margin-top 3em
+		@media (max-width: 730px)
+			column(10)
+			push(1)
+
 .home
 	background $KMS-AzulOscuro url("../img/home.jpg")
 	background-size cover
@@ -53,7 +93,7 @@ $KMS-Blanco = #f2f2f2
 		background-attachment inherit
 	.homeSlides
 		max-height 480px
-		@media(max-width:730px)
+		@media (max-width:730px)
 			max-height inherit
 			padding-bottom 2em
 	#imagenCelular
@@ -63,7 +103,7 @@ $KMS-Blanco = #f2f2f2
 			bottom 0
 			right 0
 			width 360px
-		@media(max-width:730px)
+		@media (max-width:730px)
 			height 0
 			display none
 	#bienvenida
@@ -82,19 +122,21 @@ $KMS-Blanco = #f2f2f2
 		h3
 			margin 0
 		form
-			input[type="text"]
-				column(12)
-				background-color transparent
-				border 1px solid white
-				color white
-				padding .5em
-				box-sizing border-box
-			input[type="submit"]
-				column(12)
-				margin-top .5em
-				background-color $KMS-Aqua
-				border 0px solid
-				padding .5em
+			input
+				&[type="text"],&[type="password"]
+					column(12)
+					background-color transparent
+					border 1px solid white
+					color white
+					padding .5em
+					box-sizing border-box
+					margin-bottom .5em
+				&[type="submit"]
+					column(12)
+					margin-top .5em
+					background-color $KMS-Aqua
+					border 0px solid
+					padding .5em
 .comofunciona
 	background-image url("../img/dispositivos.jpg")
 	background-size contain
@@ -103,7 +145,7 @@ $KMS-Blanco = #f2f2f2
 	overflow hidden
 	min-height 450px
 	padding 5em 0
-	@media(max-width:730px)
+	@media (max-width:730px)
 		background-image url("../img/dispositivos-min.jpg")
 		background-position center top
 		background-size auto 300px
@@ -117,7 +159,7 @@ $KMS-Blanco = #f2f2f2
 		display block
 		clear both
 		box-sizing border-box
-		@media(max-width:730px)
+		@media (max-width:730px)
 			text-align center
 			width 100%
 			margin-top 280px
@@ -133,7 +175,7 @@ $KMS-Blanco = #f2f2f2
 	overflow hidden
 	min-height 450px
 	padding 5em 0
-	@media(max-width:730px)
+	@media (max-width:730px)
 		background-image url("../img/pulsera-min.jpg")
 		background-position center bottom
 		background-size 150px auto
@@ -147,7 +189,7 @@ $KMS-Blanco = #f2f2f2
 		display block
 		clear both
 		box-sizing border-box
-		@media(max-width:730px)
+		@media (max-width:730px)
 			max-width 100%
 			text-align center
 			width 100%
@@ -172,7 +214,7 @@ $KMS-Blanco = #f2f2f2
 	overflow hidden
 	min-height 450px
 	padding 5em 0
-	@media(max-width:730px)
+	@media (max-width:730px)
 		background-image url("../img/app-min.jpg")
 		background-position right bottom
 		background-size  500px auto
@@ -187,7 +229,7 @@ $KMS-Blanco = #f2f2f2
 		background-color rgba(white, .8)
 		padding 1em
 		box-sizing border-box
-		@media(max-width:730px)
+		@media (max-width:730px)
 			text-align center
 			width 100%
 			margin-bottom 300px
@@ -261,6 +303,12 @@ footer
 	color white
 	background-color $KMS-Azul
 	overflow hidden
+	font-weight lighter
+	img
+		max-height 1.75em
+		width auto
+		padding .5em 0
+
 	&.container
 		margin-top 5em
 	h3
@@ -273,7 +321,7 @@ footer
 		vertical-align top
 		padding-bottom 1em
 		font-size .8em
-		@media(max-width:730px)
+		@media (max-width:730px)
 			column(6)
 			font-size 1em
 			padding .5em
@@ -285,7 +333,9 @@ footer
 			margin-right 0
 			height 180px
 			padding-left 1em
-			@media(max-width:730px)
+			li a
+				color #e6e6e6
+			@media (max-width:730px)
 				width 100%
 				text-align center
 				overflow hidden
@@ -342,7 +392,7 @@ header
 			top 1em
 			width 2.5em
 			display none
-			@media(max-width:705px)
+			@media (max-width:705px)
 				display block
 		ul
 			padding 0
@@ -433,8 +483,8 @@ header
 			margin-bottom 5em
 			text-align center
 	img
-		&.premios
-			max-width 160px
+		&.monitoriza
+			max-width 425px
 			clear both
 			display block
 			margin 0 auto
@@ -458,18 +508,20 @@ header
 	p
 		font-size 1em
 		font-weight lighter
-		&.premios
-			column(6)
-			push(3)
+		&.monitoriza
+			column(8)
+			push(2)
 			margin-top 1em
 			margin-bottom 5em
 			max-width 100%
 			display block
 			clear both
 		&.tips
-			column(5)
-			margin-top 3em
-			margin-bottom 5em
+			max-width 720px
+			margin 0 auto
+			display block
+			margin 1em auto 7em
+			padding 0 1em
 		&.metas
 			column(6)
 			margin-top 3em
@@ -489,6 +541,122 @@ header
 	.dashboardDetalleItem
 		column(4)
 		margin-bottom 3em
+	.monitorizaItem
+		column(4)
+		@media (max-width:520px)
+			column(12)
+			p
+				padding 0 1em
+		h2
+			font-size 1.3em
+		img
+			height 3em
+			width auto
+	.cuadritos
+		color white
+		clear both
+		position relative
+		overflow hidden
+		height 350px
+		@media (max-width: 705px)
+			height 100%
+		h2
+			color white
+			font-size 1.5em
+			max-width 300px
+			margin 1em auto
+			height 2em
+		> div
+			width 50%
+			display block
+			float left
+			padding 0 1em 1em
+			box-sizing border-box
+			height 100%
+			position absolute
+			height 350px
+			@media (max-width: 705px)
+				width 100%
+				position inherit
+			p
+				max-width 300px
+				display block
+				margin 1em auto
+		.verde
+			background-color $KMS-Verde
+			top 0
+			left 0
+		.aqua
+			background-color $KMS-Aqua
+			top 0
+			right 0
+#registro
+	h2
+		color $KMS-Verde
+		font-weight normal
+	p
+		color $KMS-Aqua
+		margin 1em 0
+		display inline-block
+		clear both
+		width 100%
+	.izquierda
+		column(6)
+		padding-bottom 2em
+		@media (max-width:730px)
+			column(12)
+	.derecha
+		column(6)
+		padding-bottom 2em
+		@media (max-width:730px)
+			column(12)
+	input
+		&[type="text"]
+			border 0px solid
+			border-bottom 1px solid $KMS-Gris
+			column(12)
+			padding .25em
+			box-sizing border-box
+			font-size .85em
+			display block
+			clear both
+		&[type="submit"]
+			max-width 300px
+			width 100%
+			display block
+			clear both
+			margin 0.5em auto
+			background-color #00ccc3
+			border 0px solid
+			padding 0.5em
+			color white
+	small
+		column(6)
+		push(3)
+		text-align center
+		a
+			color $KMS-Verde
+	form div
+		column(12)
+	select
+		display inline-block
+		&.dia
+			column(3)
+		&.mes
+			column(6)
+		&.anio
+			column(3)
+		&.peso
+			column(6)
+		&.estatura
+			column(6)
+		&.pais,&.estado
+			column(6)
+			clear both
+			display block
+			margin-bottom .5em
+	span
+		margin 0 1em
 .lightbox
 	position fixed
 	top 0
@@ -498,6 +666,52 @@ header
 	height 100vh
 	display none
 	text-align center
+	#softwareContent
+		display none
+		&.activo
+			display block
+		.downMac
+			column(3)
+			push(2)
+			margin-top 1em
+			@media (max-width:520px)
+				column(5)
+				margin-top 1em
+		.downWin
+			column(3)
+			push(2)
+			margin-top 1em
+			@media (max-width:520px)
+				column(5)
+				push(2)
+				margin-top 1em
+	#loginContent
+		display none
+		&.activo
+			display block
+		.logFacebook
+			column(4)
+			push(2)
+			margin-top .5em
+			margin-bottom .5em
+			display block
+			@media (max-width:730px)
+				column(8)
+				push(2)
+				margin-top .5em
+			img
+				max-width 100%
+		.logTwitter
+			column(4)
+			margin-top .5em
+			margin-bottom .5em
+			display block
+			@media (max-width:730px)
+				column(8)
+				push(2)
+				margin-top .5em
+			img
+				max-width 100%
 	&.activo
 		display block
 	.fondolight
@@ -542,19 +756,19 @@ header
 			clear both
 			overflow hidden
 			box-sizing border-box
-			input
-				width 100%
-				padding 0.25em
-				margin-top .5em
-				margin-bottom .5em
-				box-sizing border-box
-				&[type="submit"]
-					display block
-					margin-top 0.5em
-					background-color #00ccc3
-					border 0px solid
-					padding 0.5em
-					color white
+		input
+			width 100%
+			padding 0.25em
+			margin-top .5em
+			margin-bottom .5em
+			box-sizing border-box
+			&[type="submit"]
+				display block
+				margin-top 0.5em
+				background-color #00ccc3
+				border 0px solid
+				padding 0.5em
+				color white
 #appPortada
 	background-image url("../img/FondoApp.jpg")
 	background-position center center
@@ -627,7 +841,7 @@ header
 			display inline-block
 			float none
 		&.desempenio
-			max-width 250px
+			max-width 550px
 			margin 2em auto 0
 		&.sisOp
 			column(5)
@@ -677,6 +891,8 @@ header
 		vertical-align top
 		float none
 		margin-bottom 1em
+		@media (max-width:500px)
+			column(12)
 		&:nth-child(3n)
 			clear left
 		.nombre
@@ -700,6 +916,8 @@ header
 	.colFond
 		column(4)
 		font-weight lighter
+		@media (max-width:500px)
+			column(12)
 #pulseraIntro
 	background-color #E6E6E6
 	overflow hidden
@@ -754,7 +972,7 @@ header
 		push(3)
 		display inline-block
 		clear both
-		@media(max-width:600px)
+		@media (max-width:600px)
 			column(10)
 			push(1)
 	img
@@ -770,14 +988,14 @@ header
 			overflow hidden
 			margin-top 1em
 			padding-bottom 1em
-			@media(max-width:700px)
+			@media (max-width:700px)
 				column(5)
 				display inline-block
 				float none
 				vertical-align top
 				&:nth-child(2n+2)
 					clear left
-			@media(max-width:500px)
+			@media (max-width:500px)
 				column(10)
 				push(1)
 				display inline-block
@@ -798,3 +1016,74 @@ header
 				font-weight lighter
 				&:last-child
 					border-bottom 0px solid
+#carruselPulseras
+	margin 4em 0
+	overflow hidden
+	display block
+	.izquierda
+		column(4)
+		display inline-block
+		vertical-align middle
+		overflow hidden
+		float none
+		@media (max-width: 705px)
+			display none
+		figure
+			height 110px
+			background-color $KMS-Gris
+			background-size cover
+			background-position center
+			background-repeat no-repeat
+			transition all .3s ease-out
+			cursor pointer
+			position relative
+			&:hover
+				background-color lighten($KMS-Gris,40%)
+			&.activo
+				background-color $KMS-Aqua
+				transform scale(1.1)
+				&:after
+					content url("../img/flecha.png")
+					display block
+					position absolute
+					right -1.25em
+					top 35px
+	.derecha
+		column(7.5)
+		text-align center
+		display inline-block
+		vertical-align middle
+		overflow hidden
+		float none
+		@media (max-width: 705px)
+			column(12)
+		> div
+			display none
+			@media (max-width: 705px)
+				display block
+				margin 3em auto
+				overflow hidden
+			&.activo
+				display block
+			&.pulseraPlasticaDetail
+				img
+					max-width 200px
+			&.cargadorDetail
+				img
+					max-width 250px
+		p
+			column(10)
+			push(1)
+			margin-top 1em
+			margin-bottom 1em
+			display block
+		img
+			max-width 350px
+		.comprar
+			background-color $KMS-Rosa
+			display block
+			color white
+			width 100px
+			padding .25em 0
+			text-decoration none
+			margin 1em auto
