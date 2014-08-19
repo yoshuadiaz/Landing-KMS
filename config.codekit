@@ -1637,17 +1637,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/amigos.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12243,
-		"inputAbbreviatedPath": "\/img\/amigos.png",
-		"outputAbbreviatedPath": "\/img\/amigos.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/android.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1725,50 +1714,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/cargador.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52393,
-		"inputAbbreviatedPath": "\/img\/cargador.png",
-		"outputAbbreviatedPath": "\/img\/cargador.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cargadorDetail.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 84840,
-		"inputAbbreviatedPath": "\/img\/cargadorDetail.png",
-		"outputAbbreviatedPath": "\/img\/cargadorDetail.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/ciclista.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33581,
-		"inputAbbreviatedPath": "\/img\/ciclista.jpg",
-		"outputAbbreviatedPath": "\/img\/ciclista.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/ciclista.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 36428,
-		"inputAbbreviatedPath": "\/img\/ciclista.png",
-		"outputAbbreviatedPath": "\/img\/ciclista.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/descargarManual.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1790,171 +1735,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/dev\/EXPERIA.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1444,
-		"inputAbbreviatedPath": "\/img\/dev\/EXPERIA.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/EXPERIA.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/Galaxy-Note.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1588,
-		"inputAbbreviatedPath": "\/img\/dev\/Galaxy-Note.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/Galaxy-Note.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/Galaxy-S3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1321,
-		"inputAbbreviatedPath": "\/img\/dev\/Galaxy-S3.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/Galaxy-S3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/HTC-ONE.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1707,
-		"inputAbbreviatedPath": "\/img\/dev\/HTC-ONE.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/HTC-ONE.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/HUAWEI.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1411,
-		"inputAbbreviatedPath": "\/img\/dev\/HUAWEI.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/HUAWEI.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/i-pod-5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1564,
-		"inputAbbreviatedPath": "\/img\/dev\/i-pod-5.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/i-pod-5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/iPad-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1585,
-		"inputAbbreviatedPath": "\/img\/dev\/iPad-3.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/iPad-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/iPad-mini.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1077,
-		"inputAbbreviatedPath": "\/img\/dev\/iPad-mini.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/iPad-mini.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/iphobe-4s.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1027,
-		"inputAbbreviatedPath": "\/img\/dev\/iphobe-4s.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/iphobe-4s.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/iphone5s.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1034,
-		"inputAbbreviatedPath": "\/img\/dev\/iphone5s.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/iphone5s.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/LG-G2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1878,
-		"inputAbbreviatedPath": "\/img\/dev\/LG-G2.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/LG-G2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/Motorola-Moto-E.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1538,
-		"inputAbbreviatedPath": "\/img\/dev\/Motorola-Moto-E.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/Motorola-Moto-E.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/NEXUS-4.5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1479,
-		"inputAbbreviatedPath": "\/img\/dev\/NEXUS-4.5.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/NEXUS-4.5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/NEXUS-7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1566,
-		"inputAbbreviatedPath": "\/img\/dev\/NEXUS-7.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/NEXUS-7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dev\/TABLET-Z.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1522,
-		"inputAbbreviatedPath": "\/img\/dev\/TABLET-Z.jpg",
-		"outputAbbreviatedPath": "\/img\/dev\/TABLET-Z.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/dispositivoEjemplo.jpg": {
 		"fileType": 16384,
@@ -1989,50 +1769,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/downMac.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7432,
-		"inputAbbreviatedPath": "\/img\/downMac.jpg",
-		"outputAbbreviatedPath": "\/img\/downMac.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/downWin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8483,
-		"inputAbbreviatedPath": "\/img\/downWin.jpg",
-		"outputAbbreviatedPath": "\/img\/downWin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/facebookfoo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4462,
-		"inputAbbreviatedPath": "\/img\/facebookfoo.png",
-		"outputAbbreviatedPath": "\/img\/facebookfoo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/flecha.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 766,
-		"inputAbbreviatedPath": "\/img\/flecha.png",
-		"outputAbbreviatedPath": "\/img\/flecha.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/FondoApp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2065,17 +1801,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/Group.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8028,
-		"inputAbbreviatedPath": "\/img\/Group.png",
-		"outputAbbreviatedPath": "\/img\/Group.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/HandwithiPhone5.png": {
 		"fileType": 32768,
@@ -2110,39 +1835,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/innerCore.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47010,
-		"inputAbbreviatedPath": "\/img\/innerCore.png",
-		"outputAbbreviatedPath": "\/img\/innerCore.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/innerCoreDetail.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 98495,
-		"inputAbbreviatedPath": "\/img\/innerCoreDetail.png",
-		"outputAbbreviatedPath": "\/img\/innerCoreDetail.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/innerDetailCaract.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47130,
-		"inputAbbreviatedPath": "\/img\/innerDetailCaract.png",
-		"outputAbbreviatedPath": "\/img\/innerDetailCaract.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/karen.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2175,28 +1867,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/logFacebook.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7107,
-		"inputAbbreviatedPath": "\/img\/logFacebook.png",
-		"outputAbbreviatedPath": "\/img\/logFacebook.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logTwitter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8028,
-		"inputAbbreviatedPath": "\/img\/logTwitter.png",
-		"outputAbbreviatedPath": "\/img\/logTwitter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/manualUsuario.jpg": {
 		"fileType": 16384,
@@ -2242,17 +1912,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/metas.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3955,
-		"inputAbbreviatedPath": "\/img\/metas.png",
-		"outputAbbreviatedPath": "\/img\/metas.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mideIconos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2297,17 +1956,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/progreso.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7916,
-		"inputAbbreviatedPath": "\/img\/progreso.png",
-		"outputAbbreviatedPath": "\/img\/progreso.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/pulsera-min.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2326,17 +1974,6 @@
 		"initialSize": 29187,
 		"inputAbbreviatedPath": "\/img\/pulsera.jpg",
 		"outputAbbreviatedPath": "\/img\/pulsera.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pulseraDetail.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 95126,
-		"inputAbbreviatedPath": "\/img\/pulseraDetail.png",
-		"outputAbbreviatedPath": "\/img\/pulseraDetail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2363,17 +2000,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/pulseraPlastica.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 50082,
-		"inputAbbreviatedPath": "\/img\/pulseraPlastica.png",
-		"outputAbbreviatedPath": "\/img\/pulseraPlastica.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/raul.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2384,17 +2010,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/recompensas.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6322,
-		"inputAbbreviatedPath": "\/img\/recompensas.png",
-		"outputAbbreviatedPath": "\/img\/recompensas.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/requisitos.jpg": {
 		"fileType": 16384,
@@ -2429,17 +2044,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sincronizar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7596,
-		"inputAbbreviatedPath": "\/img\/sincronizar.png",
-		"outputAbbreviatedPath": "\/img\/sincronizar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/sinuhe.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2472,28 +2076,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/tipscomo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 80753,
-		"inputAbbreviatedPath": "\/img\/tipscomo.png",
-		"outputAbbreviatedPath": "\/img\/tipscomo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/twitterfoo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3847,
-		"inputAbbreviatedPath": "\/img\/twitterfoo.png",
-		"outputAbbreviatedPath": "\/img\/twitterfoo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/victor.jpg": {
 		"fileType": 16384,
@@ -2568,17 +2150,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/min\/kms-builder-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/kms-builder-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/kms-builder-min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/min\/smooth-scroll-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2628,24 +2199,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/preguntas.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/preguntas.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/preguntas.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/preguntas.kit",
-		"outputAbbreviatedPath": "\/preguntas.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/pulsera.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2685,42 +2238,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/registro.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/registro.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/registro.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/registro.kit",
-		"outputAbbreviatedPath": "\/registro.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sesionacabada.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sesionacabada.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sesionacabada.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sesionacabada.kit",
-		"outputAbbreviatedPath": "\/sesionacabada.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/styles\/kms.styl": {
 		"debugStyle": 0,
@@ -2767,24 +2284,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/team.kit",
 		"outputAbbreviatedPath": "\/team.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/terminos.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/terminos.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/terminos.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/terminos.kit",
-		"outputAbbreviatedPath": "\/terminos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
